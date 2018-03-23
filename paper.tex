@@ -1,0 +1,61 @@
+\documentclass[aps,prd,nofootinbib,floatfix,superscriptaddress,preprint,tightenlines]{revtex4-1}
+%\documentclass[twocolumn,hyperpdf,amsmath,amssymb,aps,prd,10pt,superscriptaddress,nofootinbib,noeprint,preprintnumbers, floatfix]{revtex4-1}
+
+
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{bm}
+\usepackage{graphicx}
+\usepackage[pdftex]{color}
+\usepackage[sort&compress]{natbib}
+\usepackage[colorlinks=true,linkcolor=blue,filecolor=blue,urlcolor=blue,citecolor=blue,pdftex,plainpages=false]{hyperref}
+
+\begin{document}
+
+\title{Lattice QCD and Cold Nuclear Physics}
+\collaboration{USQCD Collaboration}
+\noaffiliation
+
+\date{\today}
+%
+\begin{abstract}
+\emph{Write after first draft of WP is done.}
+    
+Ground rules:
+\begin{itemize}
+    \item Refuse to use Dropbox for this stuff. Stick with good ole git and github.
+    \item Location is below. Tell me your github account name and I
+      can include you with access to the repo.
+\begin{verbatim}git@github.com:JeffersonLab/2018_np_whitepaper.git\end{verbatim}
+  \item ``PRD'' style.
+  \item BibTeX for references using tags from inSPIRE.
+  \item Use your own bib file. We can call them all at the end of this
+    file in one big bibliography macro invocation.
+\end{itemize}
+\end{abstract}
+
+\maketitle
+
+\section{Executive summary}
+
+\section{Introduction}
+
+\section{Hadron Structure}
+%\input hadstruct
+
+\section{Spectroscopy}
+%\input spectro
+
+\section{Nuclear Structure}
+%\input nuclear
+
+\begin{figure}
+%    \includegraphics[width=\textwidth]{figs/chart}
+    \vspace*{3cm}
+\end{figure}
+
+\bibliographystyle{apsrev4-1}
+\bibliography{cold}
+
+\end{document}
