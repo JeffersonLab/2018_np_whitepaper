@@ -34,6 +34,8 @@ xxx
 
 \section{Spectroscopy}
 
+{\color{red} need to smuggle in somewhere that the anisotropic lattices were useful ...}
+
 % set up the ideas of hadron spectro
  
 The aim of hadron spectroscopy is to understand the observed experimental spectrum of hadrons in terms of the underlying theory of quarks and gluons, QCD. Traditionally attempts to decipher the regularities present in the spectrum have focussed on models having only limited connection to QCD, but lattice QCD, which offers a first-principles approach to the theory, has now matured to the point where it leads efforts to understand excited hadrons.
@@ -101,7 +103,7 @@ This example illustrates the highly non-trivial dynamics that can arise at the l
 
 %... also found a0(980) like state ... these scalar mesons long been a problem for simple pictures ... too much detail here ??
 
-A new generation of experiments are studying hadron spectroscopy using novel production mechanisms -- an example being the GlueX experiment at Jefferson Lab, which is producing meson resonances using a photon beam, with a particular focus being the search for exotic $J^{PC}$ hybrid mesons. The anticipated huge data set from this experiment motivates study of the coupling of excited hadrons to photons, and in recent years we have seen the formalism developed to extract the relevant amplitudes from finite-volume lattice QCD calculations, and indeed the first explicit calculation. Refs.~\cite{Briceno:2015dca,Briceno:2016kkp} computed three-point vector current correlation functions corresponding to the quantum numbers of the process $\gamma^\star \pi \to \pi \pi$ with $J^P=1^-$, in which the $\rho$ resonance is expected to appear. The results of this first calculation with $m_\pi \sim 400$ MeV are presented in Fig~\ref{rhopigamma} where the effect of the $\rho$ resonance in the electromagnetic transition amplitude can be clearly observed, and where the dependence on the virtuality of current can be used to determine the \emph{transition form-factor} of the unstable $\rho$ resonance. A related technology for $e^+ e^-$ annihilation to meson-meson final-states through a photon has also been applied to the elastic $\rho \to \pi\pi$ case~\cite{Feng:2014gba}.
+A new generation of experiments are studying hadron spectroscopy using novel production mechanisms -- an example being the GlueX experiment at Jefferson Lab, which is producing meson resonances using a photon beam, with a particular focus being the search for exotic $J^{PC}$ hybrid mesons. The anticipated huge data set from this experiment motivates study of the coupling of excited hadrons to photons, and in recent years we have seen the formalism developed to extract the relevant amplitudes from finite-volume lattice QCD calculations, and indeed the first explicit calculation. Refs.~\cite{Briceno:2015dca,Briceno:2016kkp} computed three-point vector current correlation   functions corresponding to the quantum numbers of the process $\gamma^\star \pi \to \pi \pi$ with $J^P=1^-$, in which the $\rho$ resonance is expected to appear. The results of this first calculation with $m_\pi \sim 400$ MeV are presented in Fig~\ref{rhopigamma} where the effect of the $\rho$ resonance in the electromagnetic transition amplitude can be clearly observed, and where the dependence on the virtuality of current can be used to determine the \emph{transition form-factor} of the unstable $\rho$ resonance. A related technology for $e^+ e^-$ annihilation to meson-meson final-states through a photon has also been applied to the elastic $\rho \to \pi\pi$ case~\cite{Feng:2014gba}.
 
  
 \begin{figure}
@@ -127,32 +129,31 @@ The progress described above in computation of elastic and coupled-channel scatt
 
 \subsection{... future efforts ...}
 
-... application of established two-body techniques to XXXX, including exotic JPC ... 
+With the groundwork laid, we expect to see ...
+
+Early targets will see the application of established two-body techniques to channels that have not previously been explored, including the exotic $J^{PC}$ sector in which \emph{hybrid mesons} are predicted to appear. An aim is to predict some properties of these states in advance of the search within the GlueX data set, in particular to offer guidance to their most likely decay channels.
 
 
-in the short-term more calculations at heavier than physical quark masses are warranted ... three-meson thresholds higher ... established meson resonances like $a_1$, $b_1$ ... decays to $\pi \rho$, $\pi \omega$ where the vector mesons are stable at heavier quark masses ...
-
-{\color{red} predict some properties of the anticipated exotic $J^{PC}$ hybrid mesons in advance of the GlueX search ... possibly offer guidance to the most likely decay channels ...}
+In the short-term, some calculations at heavier than physical quark masses will continue to be warranted. By increasing the light quark mass, pions become heavier, and three-meson thresholds lie higher, providing a larger energy region over which the two-body finite-volume formalism can be applied rigorously. 
 
 
-... exotics in charm sector ... suggestions that at least some of the observed enhancements are due to three-body nature of production process rather than a true two-body resonance ... can be investigated in a two-body context within lattice calculation (example of lack of Zc states in lattice calcs ...)
+Proposed calculations include established meson resonances like $a_1$, $b_1$, which are known to have dominant decays to $\pi \rho$, $\pi \omega$, where at heavier light quark masses, the vector mesons become stable ...
 
+Within the charm sector, the lattice QCD methods described above can be brought to bear on the question of flavor exotics and the other excess `XYZ' states. There have been suggestions that at least some of the observed enhancements arise due to the kinematics of the three-body production process (e.g. $e^+e^- \to J/\psi \, \pi \pi$ or $B \to K \, \psi' \pi$), rather than being due to a true two-body resonance. The lattice calculation has the advantage that it does not need to consider a particular production process, rather it can determine the two-body scattering amplitude directly, and thus investigate the resonance content.
+{\color{red} some refs to partial work done ?}
 
+An important current restriction, touched on above, is the absence of a complete formalism to describe three-hadron scattering in a  finite-volume. It is clear that this must be remedied if calculations are to proceed at lighter quark masses, where the bulk of resonances lie above at least one three hadron threshold. A significant formal effort is underway, REFS, ... From the lattice side, the extension of previous calculations is relatively straightforward -- three-hadron-like operators can be constructed using the same techniques used to combine single hadrons into two-hadron operators, and approaches like distillation allow for the relevant correlation functions to be computed. There will naturally be a combinatoric increase in contraction costs, and algorithmic improvements will be explored that seek to reduce these.
 
-as pion masses reduce, clear need for three-body ... three-body formalism development ... lattice technology is already there ... 
+While the development of a rigorous three-body (and higher) formalism is vital to have confidence in the calculations of high-lying resonances, it is likely that explicit calculations will show simpler behavior corresponding to quasi-two-body decays. Experimentally resonances appearing in three-body and higher multiplicity final state are observed to dominantly proceed through intermediated two-body states featuring isobar resonances which subsequently decay, e.g. $a_1 \to \rho \pi \to (\pi\pi) \pi$. It may eventually prove possible to make use of this isobar dominance to simplify somewhat the analysis of finite-volume spectra for kinematics with multi-hadron decays.
 
-... emergence of isobar dominance ... subsequent simplifications ?
+Most of the developmental work in this field has been done with meson-meson scattering, but in the next five years we expect to see a larger push into the baryon resonance sector. Considering baryon-meson scattering again suffers from a combinatoric increase in contraction cost, but the anticipated algorithmic improvements ... {\color{red} dunno how much to promise here ... the last five year plan was ridiculously optimistic and failed to meet any of its baryon proposals}
 
-
-... baryon resonances ... baryon-meson scattering ... combinatoric increase in contraction cost ... algorithmic improvements 
-
-
-... use of coupling to currents more generally ... as a tool to examine the bound structure of resonances ...
+Building on the first successful calculations involving currents coupled to resonances, we will see extensions to other resonant states. Transition form-factors evaluated for real photons control the rate of photoproduction at GlueX -- first calculations (even for unphysically heavy quark masses) of established mesons can be compared to the first round of analysis of the GlueX data set, and prediction estimates made for the exotic $J^{PC}$ state production rates. Beyond electromagnetism, we will see calculations of light quark resonances appearing in weak heavy flavor decays {\color{red} ... motivate interest ...}. We can also consider the use of coupling resonances to currents more generally, including currents which are not necessarily experimentally accessible, as a tool to examine the bound structure of resonances. %By computing the current virtuality dependence, and extrapolating to the resonance pole, 
 
 %... charmonium radiative transitions - realistic for above-threshold states ? ... vector decay constants certainly needed ...
 
 
-... physical quark mass ensemble ... first calculations ... ?
+... anisotropic physical quark mass ensemble ... first calculations ... elastic resonances ($\rho, \sigma$, $\Delta$) and their couplings to electromagnetism ... 
 
 
 
