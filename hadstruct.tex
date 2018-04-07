@@ -1,0 +1,55 @@
+\section{Gluon observables}
+
+\subsection{Motivation and Achievement}
+
+
+While gluons and the QCD interactions they embody play an essential role in the binding of hadrons, gluon contributions to hadron structure observables are far less well known than their quark analogues. A primary mission of the proposed Electron-Ion Collider~\cite{Accardi:2012qut,Kalantarians:2014eda}, which is the highest priority for new construction in the NSAC nuclear physics long-range plan~\cite{Geesaman:2015fha}, is to image the gluon structure of hadrons and nuclei. This program will access the three-dimensional gluon structure of the nucleon and allow first measurements of gluon GPDs and TMDs, complimenting significant efforts at RHIC to measure the gluon contribution to the nucleon spin, and potential experiments to study gluon distributions at JLab~\cite{Maxwell:2018gci,Hattawy:2017woc,Dobbs:2017vjw} and at the LHC~\cite{Baltz:2007kq}. 
+%
+In this light, LQCD calculations of gluon structure quantities have taken on renewed importance. There has been significant progress on this front over the last five years~\cite{Alexandrou:2017oeh,Yang:2016plb,Detmold:2016gpy,Detmold:2017oqb,Winter:2017bfs}, expanding and building on pioneering studies of the unpolarised gluon structure of the pion and nucleon~\cite{Meyer:2007tm,Horsley:2012pz,Alexandrou:2013tfa} over the last decade. 
+
+In particular, LQCD calculations have provided new insight into the proton spin crisis---the realization that quarks carry only a relatively small fraction of the proton spin---by way of complete and fully-controlled determinations of the key and poorly-known gluon contributions to the nucleon spin~\cite{Alexandrou:2017oeh,Yang:2016plb}. 
+These results include a significantly improved constraint on the total gluon helicity~\cite{Yang:2016plb} compared to global analyses of polarized parton distributions~\cite{deFlorian:2014yva}.
+Complementing these works, new understanding of the continuum of decompositions of the nucleon spin in the LQCD framework has been achieved~\cite{Engelhardt:2017miy}, and studies of the non-perturbative~\cite{paper by Yibo et al to appear next week} and perturbative renormalization~\cite{Alexandrou:2017oeh} of gluon operators have begun.
+%
+In another impressive success, the gluon contribution to the nucleon's momentum has been resolved at 10\% precision, with the momentum sum rule (including separate determinations of the quark and gluon connected and disconnected contributions) found to be satisfied at quark masses corresponding to the the physical value of the pion mass~\cite{Alexandrou:2017oeh}. Extensions of this work will rival the precision of phenomenological parton distribution fits (e.g., CT14NNLO~\cite{Dulat:2015mca}) in the next few years.
+%
+First calculations of some of the moments of the gluon GPDs~\cite{Diehl:2003ny} that describe the distribution of gluons in hadrons both in the transverse plane and in the longitudinal direction~\cite{Detmold:2016gpy,Detmold:2017oqb} have also been performed, providing first insight into details of the three-dimensional gluon structure of hadrons, albeit without fully-controlled uncertainties. 
+Moreover, aspects of the gluon structure of nuclei have been studied for the first time, {\color{red} as described in Section~\ref{}}.
+
+The following subsection outlines the prospects for LQCD calculations of the gluon structure of hadrons on a 5-year timescale. It is expected that in this time many key gluon structure quantities will be calculated at 2-5\% precision with fully-controlled uncertainties, and others will be accessed for the first time, providing new insight into hadron structure and serving as QCD predictions and benchmarks for the EIC and other experimental programs.
+
+%\begin{figure}[t]
+%	\includegraphics[width=0.45\textwidth]{vbars-xudsg2.pdf}
+%	\caption{\label{fig:momfrac}Figure taken from Ref.~\cite{Alexandrou:2017oeh}, which includes a physical-mass calculation of the fraction of momentum carried by gluons in the nucleon (green vertical bar labeled `g').}
+%\end{figure}
+
+
+
+\subsection{Future opportunities}
+
+Exascale computing resources and concurrent algorithm development {\color{red} (see Section~\ref{})} will facilitate LQCD calculations of static gluon structure quantities with fully controlled uncertainties. Given recent advances that significantly lower the cost of gauge field generation {\color{red} (see Section~\ref{})}, calculations on multiple large lattice volumes (e.g., $L^3\times T=72^3 \times 192$ and larger) will achieve significant advantages through volume averaging which acts to reduce the gauge noise that is a statistical challenge for calculations of gluon observables. Nevertheless, these studies face significant analysis costs and achieving controlled calculations of non-static quantities including the distributions that encode the three-dimensional gluon structure of the nucleon, especially at large momenta (as required to extract the $x$-dependence of PDFs, GPDs and TMDs) and in the approach to the continuum limit (where gluon field fluctuations grow), will require continued development of algorithms and new analysis approaches.\\
+
+
+{\it Static properties of the nucleon}
+
+In the near term, precise calculations of moments of gluon distributions encoding the contribution of gluons to the mass, momentum, and spin of the nucleon and of other hadrons will be refined. In particular, one can expect calculations at quark masses corresponding to the physical pion mass with fully-controlled uncertainties at the level of 2-5\% precision. 
+To achieve this level of systematic control, it is necessary to precisely determine the required renormalizations, including mixing between the gluon observables and the flavor-singlet quark disconnected terms. This carries significant computational cost in its own right.\\
+ 
+
+{\it Form factors and radii}
+
+The gluon radius of the nucleon is a quantity as fundamental as the charge radius, but it is not known quantitatively or qualitatively, from experiment or theory, how the charge and gluon radii compare. 
+Defined by the slope of the spin-averaged gravitational form factor at zero momentum transfer, the gluon density radius is related via the operator product expansion to matrix elements of the gluon part of the energy-momentum tensor.
+This, and more generally the $Q^2$-dependence of the generalized gluon form factors that describe the moments of the gluon GPDs, can be calculated using LQCD for both hadrons and light nuclei~\cite{Detmold:2017oqb,Winter:2017bfs}.
+On a few-year timescale, fully-controlled calculations of gluon generalized form factors for the nucleon, for low moments and to a scale of several GeV$^2$, can be expected.
+From experiment, comparison of nuclear quark and gluon radii will likely be possible through measurements of the parton densities in ${}^4$He at the JLab 12 GeV program~\cite{Hattawy:2017woc}, or from direct measurements of nuclear and nucleon gluon densities using heavy quark production at the planned EIC~\cite{Chudakov:2016otl}. \\
+
+
+{\it PDFs and TMDs}
+
+In the longer term, coinciding with the era of exascale computing, one can expect that the $x$-dependence of gluon PDFs and TMDs will be determined from LQCD. Defined on the lightcone, these quantities can not be calculated directly on a Euclidean lattice but can be accessed via rotations to `quasi' or `pseudo' PDFs, extrapolated back to the physical quantity in the large-momentum limit. For the quark PDFs and TMDs these approaches have shown great promise and early success~\cite{Lin:2014zya,Alexandrou:2015rja} ({see also \color{red} Section~\ref{)}}). Ultimately, extending these calculations to include gluon distributions will allow a complete decomposition of the three-dimensional quark and gluon structure of the nucleon.\\
+
+{\it Hybrid mesons}
+
+There is considerable experimental evidence for mesonic states that do not fit into a constituent quark model picture~\cite{Patrignani:2016xqp}; it is theorised that bound gluons (glueballs), or $q\overline{q}$-pairs bound with excited gluons (hybrids), may account for these observations. 
+As highlighted in the 2015 NSAC long-range plan~\cite{Geesaman:2015fha}, LQCD plays an essential role in guiding experiments designed to search for exotic states, including the flagship GlueX experimental program at JLab~\cite{Dobbs:2017vjw}. In addition to specroscopic studies of the resonances in question {\color{red}(see Section~\ref{})}, LQCD studies of their three-dimensional gluon structure described by the gluon GPDs and TMDs may provide insight from QCD into details of the nature of exotic states. These calculations are extremely demanding computationally and will also require continued theoretical development.
