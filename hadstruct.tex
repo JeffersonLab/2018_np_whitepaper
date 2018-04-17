@@ -1,3 +1,124 @@
+\subsection{Parton Distribution Functions}
+Parton distributions functions (PDFs)  are the densities 
+of quarks and gluons carrying a fraction $x$ of the longitudinal hadron momentum.
+They  are defined as matrix 
+elements in a hadron state of bi-local operators in the light-cone frame, where 
+the hadron carries momentum $p$ with plus/minus components
+$p^\pm=(p^0\pm p^3)/\sqrt{2}$, and transverse components equal to zero.
+%
+In the case of unpolarized and polarized quark PDFs, one has
+\begin{align}
+q(x) & = \frac{1}{4\pi}
+\int dy^-e^{-iy^-xp^+}\langle p|\bar{\psi}(0,y^-,\mathbf{0}_\perp)
+\gamma^+\mathcal{G}\psi(0,0,\mathbf{0})|p\rangle\,,
+\label{eq:LCdefunp}\\
+\Delta q(x) & = \frac{1}{4\pi}
+\int dy^-e^{-iy^-xp^+}\langle p, s|\bar{\psi}(0,y^-,\mathbf{0}_\perp)
+\gamma^+\gamma^5\mathcal{G}\psi(0,0,\mathbf{0})|p, s\rangle\,,
+\label{eq:LCdefpol}
+\end{align}
+where $\psi$ is the quark field and $\mathcal{G}$ is an appropriate gauge link
+required to make Eqs.~\eqref{eq:LCdefunp}--\eqref{eq:LCdefpol} gauge invariant.
+%
+See Refs.~\cite{Collins:1981uw,Curci:1980uw,Baulieu:1979mr,Collins:1989gx} 
+for the definition of $\mathcal{G}$ and for
+explicit light-cone formul{\ae} of unpolarized an polarized gluon PDFs.
+Parton distribution functions are non-perturbative objects that can be determined  from experiment. 
+
+Lattice QCD has also been employed from its early days in order  to calculate PDFs from first principles.  However, the
+formulation of lattice QCD in Euclidean space provided a formidable
+restriction: the $x$ dependence could not be computed directly, but
+only the $x$ moments of the distributions.  Furthermore, the breaking
+of rotational symmetry on the lattice in practice restricted such
+calculations to only the first few moments. 
+The analytic continuation of the matrix elements that define the PDFs to Euclidean space is highly non-trivial due to the fact that these matrix elements are not local in time.
+Recently, new ideas have
+been proposed that aim to circumvent this
+problem~\cite{Ji:2013dva,Ji:2014gla} known as the "Large Momentum Effective Field Theory" (LaMET).
+In this approach, one computes a time local version of the matrix element that defines the PDF in Euclidean space given by
+%
+\begin{equation}\label{eq:qPDF}
+h_\alpha(z,p_z) 
+= 
+\frac{1}{4 p_{\alpha}}\sum_{s=1}^2\left\langle p,s\right\vert \bar{\psi}(z)\gamma_\alpha e^{ig\int_0^z
+A_z(z^\prime) dz^\prime} \psi(0) \left\vert p,s\right\rangle,
+\end{equation}
+%
+where $p_\alpha$ is the proton momentum $s$ its spin, and $z$ is the separation of the quark and anti quark fields $\bar\psi$ and $\psi$. A convenient choice is to take the 
+proton momentum  and quark, anti-quark separation to be along the $z$ direction (time local) while the Lorentz index $\alpha$ is taken along the time direction $\alpha = 4$~\cite{Xiong:2013bka,Radyushkin:2016hsy,Radyushkin:2017cyf,Orginos:2017kos}. 
+
+With these choices, the quasi-PDF is defined by
+\begin{equation}
+\widetilde{q}(x,\Lambda,p_z)  
+=   \int \frac{dz}{2\pi} e^{-i x z p_z} p_z h_4(z,p_z), 
+\end{equation}
+where $\Lambda$ is an UV cut-off scale, such as the inverse lattice spacing 
+$1/a$. 
+In the context of LaMET~\cite{Ji:2013dva,Ji:2014gla}
+ this can be related to PDFs using the matching condition
+%
+\begin{equation} \label{eq:qPDFmatching}
+\widetilde{q}(x,\Lambda ,p_z) = 
+  \int_{-1}^1 \frac{dy}{\left\vert y\right\vert} 
+    Z\left( \frac{x}{y}, \frac{\mu}{p_z}, \frac{\Lambda}{p_z}\right)_{\mu^2 = Q^2} q(y,Q^2) +
+  \mathcal{O}\left( \frac{\Lambda_\text{QCD}^2}{p_z^2},\frac{M^2}{p_z^2}\right), 
+\end{equation}
+where $\mu$ is the renormalization scale,
+$Z$ is a matching kernel and $M$ is the nucleon mass.
+Here the $\mathcal{O}\left(M^2/p_z^2\right)$ terms are target-mass corrections 
+and the $\mathcal{O}\left(\Lambda_\text{QCD}^2/p_z^2\right)$ terms are 
+higher-twist effects, both of which are suppressed at large nucleon momentum. 
+In the above construction it is assumed that the matrix element  $h_4(z,p_z)$, is renormalized appropriately. 
+This can be accomplished using nonperturbative schemes, such as the 
+RI/MOM scheme~\cite{Martinelli:1994ty}. This approach has been recently used  for quasi-PDFs  in Refs.~\cite{Alexandrou:2017huk,Chen:2017mzz,Green:2017xeu}.
+
+Alternatively, one can introduce the ratio
+\begin{equation}
+{\mathcal M}(\nu,z^2) =\frac{h_4(p_z,z)}{ h_4(0,z)}
+\label{eq:RatioPseudo}
+\end{equation}
+where $\nu = p_z z$ is a Lorentz invariant called the Ioffe time~\cite{Ioffe:1969kf,Braun:1994jq}. This ratio is free of UV divergences and requires no renormalization. As shown in~\cite{Radyushkin:2016hsy,Radyushkin:2017cyf} it is related to Ioffe time distributions, which are Fourier transforms of the PDFs through
+\begin{equation}
+{\mathcal M}(\nu,z^2) =\int_0^1 d\alpha C(\alpha,z^2\mu) {\cal Q}(\alpha x,\mu^2) +{ \cal O}(z^2)
+\label{eq:MatchPseudo}
+\end{equation}
+where  $C(\alpha,z^2\mu^2) $ is a perturbatively calculable function and {\cal Q} is the Ioffe time PDF which relates to the PDF via a Fourier transform 
+\begin{equation}
+{q}(x,\mu^2)=\int \frac{d\nu}{2\pi} e^{-ix\nu} {\cal Q}(\nu,\mu^2).
+\end{equation}
+
+
+\subsection{Lattice Cross Sections}
+Like extracting PDFs from QCD global fits of high energy scattering data, PDFs can also be extracted from analyzing ``data'' generated by lattice-QCD calculation of good {\it lattice cross sections} \cite{Ma:2014jla,Ma:2014jga}. A {\it lattice cross section} is defined as a single-hadron matrix element of a time-ordered, renormalized nonlocal operator ${\cal O}_n(z)$: ${\sigma}_{n}(\nu,z^2,p^2)=\langle p| {T}\{{\cal O}_n({z})\}|p\rangle$ with four-vector, $p$, $z$ and $\nu$ defined above and renormalization scale suppressed. The $p$ and $z$ effectively define the ``collision'' kinematics, and the choice of ${\cal O}_n$ determines the dynamical features of the lattice cross section. A good lattice cross section should have the following three key properties: (1) calculable in lattice-QCD with an Euclidean time, (2) has a well-defined continuum limit as the lattice spacing $a\to 0$, and (3) has the same and factorizable logarithmic collinear (CO) divergences as that of PDFs, which connects the good lattice cross sections to PDFs, just like how high energy hadronic cross sections are related to PDFs in terms of QCD factorization.  
+
+A class of {\it good} lattice cross sections was constructed in terms of a correlation of two {\it renormalizable} currents, ${\cal O}_{j_1j_2}(z)\equiv z^{d_{j_1}+d_{j_2}-2} Z_{j_1} Z_{j_2}\, j_1(z) j_2(0)$, with dimension ($d_j$) and renormalization constant ($Z_j$) of the current $j$.  There could be many choices for the current, such as a vector quark current, $j_q^V(z) = \overline{\psi}_q(z)\gamma\cdot{z}\, {\psi}_{q}(z)$, or a tensor gluonic current, $j_g^{\mu\nu}(z)\propto F^{\mu\rho}(z){F_{\rho}}^\nu(z)$ \cite{Ma:2017pxb}.  Different combinations of the two currents could help enhance the lattice cross sections' flavor dependence.  If $z^2$ is sufficiently small, the lattice cross section constructed from two renormalizable currents could be factorized into PDFs \cite{Ma:2017pxb},
+\begin{equation}\label{eq:fac}
+{\sigma}_{n}(\nu,z^2,p^2)=\sum_{a}\int_{-1}^1 \frac{dx}{x}\, f_{a}(x,\mu^2) 
+K_{{n}}^{a}(x\nu,z^2,x^2p^2,\mu^2) +O(z^2\Lambda_{\rm QCD}^2)\, ,
+\end{equation}
+where $\mu$ is the factorization scale, $K_n^{a}$ are perturbatively calculable hard coefficients, and $f_{a}$ is PDF of flavor $a=q,g$ with anti-quark PDFs expressed by quark PDFs using the relation $f_{\bar{a}}(x,\mu^2)=-f_{{a}}(-x,\mu^2)$.  PDFs could be extracted from global fits of lattice-QCD generated data for various lattice cross sections $\sigma_{n}(\nu,z^2,p^2)$ with corresponding perturbatively calculated coefficients $K_n^{a}$ in Eq.~(\ref{eq:fac}).
+
+The quasi-PDFs and pseudo-PDFs introduced above could be derived by choosing 
+\begin{equation}
+{\cal O}_{q}(z)=Z_q(z^2)\overline{\psi}_q(z)\gamma\cdot {z}\, \Phi(z,0){\psi}_q(0)\,.
+\end{equation}
+ with the renormalization constant $Z_q(z^2)$ and the path ordered gauge link $\Phi(z,0)={\cal P}e^{-ig\int_0^{1} z\cdot A(\lambda z)\,d\lambda}$ \cite{Ma:2017pxb}.  With $K^{q(0)}_{q}(x \nu,z^2,0,\mu)= 2 x \nu  e^{i x \nu}$, one finds,
+\begin{equation}\label{eq:lcsQuasi}
+\int \frac{d \nu}{\nu}\, \frac{e^{-i x \nu}}{4\pi} \sigma_{q}(\nu,z^2,p^2)\approx f_{q}(x,\mu)\, ,
+\end{equation}
+modulo $O(\alpha_s)$ and higher twist corrections.  By choosing $z_0=0$ and both $\vec{p}$ and $\vec{z}$ along the ``3"-direction, one finds that $\nu=-z_3\, p_3$ and the left hand side of Eq.~(\ref{eq:lcsQuasi}) is the quasi-quark distribution introduced in Ref.~\cite{Ji:2013dva} if the integral is performed by fixing $p_3$, while it is effectively the pseudo-quark distribution used in Ref.~\cite{Orginos:2017kos} if the integral is performed by fixing $z_3$. That is, these two approaches for extracting PDFs are equivalent if matching coefficients are calculated at the lowest order in $\alpha_s$ neglecting all power corrections, but different if contributions from either higher order in $\alpha_s$ or higher powers in $z^2$ need to be considered.
+ %That is, these two approaches for extracting PDFs are equivalent if matching coefficients are calculated to the lowest order in $\alpha_s$, but different if higher order contributions need to be considered. 
+Furthermore, Eq.~(\ref{eq:lcsQuasi}) indicates that the quasi-PDFs and pseudo-PDFs are two special cases of good lattice cross sections. 
+
+
+
+
+\subsection{Generalized Parton Distribution Functions}
+
+
+
+
+
 \subsection{Gluon observables}
 
 \subsubsection{Motivation and Achievement}
