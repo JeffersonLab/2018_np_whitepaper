@@ -1,38 +1,5 @@
-\documentclass[aps,prd,nofootinbib,floatfix,superscriptaddress,preprint,tightenlines]{revtex4-1}
-%\documentclass[twocolumn,hyperpdf,amsmath,amssymb,aps,prd,10pt,superscriptaddress,nofootinbib,noeprint,preprintnumbers, floatfix]{revtex4-1}
 
-
-\usepackage{amsfonts}
-\usepackage{amsmath}
-\usepackage{amssymb}
-\usepackage{bm}
-\usepackage{graphicx}
-\usepackage[pdftex]{color}
-\usepackage[sort&compress]{natbib}
-\usepackage[colorlinks=true,linkcolor=blue,filecolor=blue,urlcolor=blue,citecolor=blue,pdftex,plainpages=false]{hyperref}
-
-%%%% added this %%%%
-\usepackage{sidecap}
-%%%%%%%%%%%%%%%%%%%%
-
-
-\begin{document}
-
-\title{Lattice QCD and Cold Nuclear Physics}
-\collaboration{USQCD Collaboration}
-\noaffiliation
-
-\date{\today}
-%
-\begin{abstract}
-xxx
-\end{abstract}
-
-\maketitle
-
-
-
-\section{Spectroscopy}
+%\section{Spectroscopy}
 
 {\color{red} need to smuggle in somewhere that the anisotropic lattices were useful ...}
 
@@ -86,8 +53,8 @@ In the elastic case, the scattering amplitude can be described by a single real 
 Developments in the technology of operator and correlation function construction have taken place that mean that these elastic scattering calculations are becoming a commonplace component of a lattice QCD program. Recent examples are presented in Fig~\ref{elastic} for the case of $\pi\pi$ scattering in isospin=1 and isospin=0, where the very different behavior of the $\rho$ resonance and the $\sigma$ can be observed. Lattice QCD~\cite{Briceno:2016mjc} has shown for the first time in a first-principles approach to QCD, that the $\sigma$ meson evolves from being a broad resonance at light quark masses, into a stable bound-state below the $\pi\pi$ threshold, a meson analogue of the deuteron. 
 
 \begin{figure}
-\includegraphics[width=0.44\textwidth]{bulava}
-\includegraphics[width=0.48\textwidth]{sigma}
+\includegraphics[width=0.44\textwidth]{dudek/bulava}
+\includegraphics[width=0.48\textwidth]{dudek/sigma}
 \caption{$\pi\pi$ elastic scattering phase-shifts from lattice QCD calculations. (a) Isospin=1 $P$-wave computed with $m_\pi \sim 236$ MeV~\cite{Bulava:2016mks} showing the characteristic narrow $\rho$ resonance. (b) Isospin=0 $S$-wave at $m_\pi \sim 391$ MeV and $m_\pi \sim 236$ MeV where the $\sigma$ meson appears as a bound-state, broad resonance respectively~\cite{Briceno:2016mjc}.}
 \label{elastic}
 \end{figure}
@@ -107,14 +74,14 @@ A new generation of experiments are studying hadron spectroscopy using novel pro
 
  
 \begin{figure}
-\includegraphics[width=0.8\textwidth]{f0f2}
+\includegraphics[width=0.8\textwidth]{dudek/f0f2}
 \caption{$\pi\pi, K\overline{K}$ coupled-channel scattering amplitudes in two partial-waves determined in a lattice QCD calculation with $m_\pi \sim 391$ MeV~\cite{Briceno:2017qmb}. (a) $J^P=0^+$ sector found to contain a bound-state $\sigma$, but also a resonance pole near the $K\overline{K}$ threshold, having strong coupling to both $K\overline{K}$ and $\pi\pi$ that may be associated with the experimental $f_0(980)$ meson. (b) $J^P=2^+$ sector found to contain two narrow tensor resonances. {\color{red} could prune down the caption}}
 \label{f0f2}
 \end{figure}
 
 
 \begin{SCfigure}
-\includegraphics[width=0.45\textwidth]{rho_pi_gamma}
+\includegraphics[width=0.45\textwidth]{dudek/rho_pi_gamma}
 \caption{Amplitude for the process ${\pi \gamma^\star \to \pi\pi}$ in $P$-wave computed in lattice QCD with $m_\pi \sim 391$ MeV~\cite{Briceno:2016kkp,Briceno:2015dca}. Shown for two values of the photon virtuality, $Q^2$, and also shown the corresponding amplitude for $\pi\pi \to \pi \pi$ indicating that the $\rho$ resonance is contributing to both processes.  }
 \label{rhopigamma}
 \end{SCfigure}
@@ -161,8 +128,3 @@ Building on the first successful calculations involving currents coupled to reso
 
 
 
-
-\bibliographystyle{apsrev4-1}
-\bibliography{cold}
-
-\end{document}
