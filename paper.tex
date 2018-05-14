@@ -12,11 +12,11 @@
 \usepackage[colorlinks=true,linkcolor=blue,filecolor=blue,urlcolor=blue,citecolor=blue,pdftex,plainpages=false]{hyperref}
 \usepackage{sidecap}
 
-
+\newcommand{\hide}[1]{{#1}}
 
 \begin{document}
 
-\title{Lattice QCD and Cold Nuclear Physics}
+\title{Hadrons and Nuclei}
 \collaboration{USQCD Collaboration}
 \noaffiliation
 
@@ -36,6 +36,7 @@ Ground rules:
   \item Use your own bib file. We can call them all at the end of this
     file in one big bibliography macro invocation.
 \end{itemize}
+
 \end{abstract}
 
 \maketitle
@@ -53,7 +54,7 @@ Ground rules:
 \input hadstruct
 
 \section{Hadron Spectroscopy}
-\input spectro
+\input dudek/dudek
 
 \section{Nuclear Spectroscopy, Interactions and Structure}
 \input nuclear
