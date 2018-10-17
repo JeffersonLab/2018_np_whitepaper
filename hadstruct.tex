@@ -32,20 +32,27 @@ Second order responses to EM fields are quantified by the electric and magnetic 
 
 \subsection{Parton Distribution Functions}
 
-\begin{itemize}
-	\item Moments of PDFs are the traditional approach. Founded in well-understood local matrix elements. Challenges due to mixing and noise.
-	\item Efforts to bypass mixing issues using O(4)-improved operators
-	\item Quasi parton distributions
-	\item pseudo parton distributions
-	\item lattice cross sections
-	\item methods based on hadronic tensor
-\end{itemize}
+%\begin{itemize}
+%	\item Moments of PDFs are the traditional approach. Founded in well-understood local matrix elements. Challenges due to mixing and noise.
+%	\item Efforts to bypass mixing issues using O(4)-improved operators
+%	\item Quasi parton distributions
+%	\item pseudo parton distributions
+%	\item lattice cross sections
+%	\item methods based on hadronic tensor
+%\end{itemize}
 
+
+The DIS experiments begun at SLAC in the late 1960s, led the way to the observation of asymptotic freedom and the development of QCD as a non-Abelian gauge theory. Efforts to better determine partonic structure have continued ever since this august beginning. Parton distributions are important inputs for experiments at hadron colliders such as the LHC and must be better constrained to fully exploit these experimental programs. They also define the distributions of longitudinal momentum carried by quarks and gluons in hadrons and complement the information obtained in form factors.
 
 
 \subsubsection{Moments of Parton Distribution Functions}
 
 The most well-established calculations that address partonic structure of hadrons are based on calculations of matrix elements of local twist-two operators that arise in the light-cone operator product expansion of DIS and related processes. These matrix elements determine the Mellin moments of the underlying parton distributions, and knowing a sufficient number of moments allows for a realistic reconstruction of the PDF. However, the reduced symmetries of the spacetime lattice used in LQCD calculations (typically, the hypercubic group H(4)) compared to the Lorentz group mean that the OPE is complicated by divergent mixing between operators.
+Lattice operators corresponding to the lowest few moments of the unpolarized, polarized and transversity distributions can be chosen such that this mixing is absent at the expense of having nonzero matrix elements only in states of nonzero three-momentum. LQCD calculations of these matrix elements have been undertaken since the first calculations of Martinelli and Sachrajda \cite{Martinelli:1988XXXXXX} in the 1980s. A recent summary of the calculations of PDF moments is given in \cite{Lin:2017XXXX}.
+	
+To go beyond the lowest moments, operators involving more complicated finite difference discretizations of the derivative operators can be constructed following ideas developed in three-dimensional discretizations of interpolating operators of fixed angular momentum \cite{}. By using multiple different copies of given irreducible H(4) representations (irreps), better approximations to operators transforming irreducibly under SO(4) symmetries can be constructed. This approach is being actively investigated at present and offers the possibility of calculations of sufficient numbers of moments that a parameterization of the underlying PDF can be costrained.
+
+
 
 \subsubsection{Quasi-distributions and pseudo-distributions}
 
@@ -161,7 +168,9 @@ modulo $O(\alpha_s)$ and higher twist corrections.  By choosing $z_0=0$ and both
  %That is, these two approaches for extracting PDFs are equivalent if matching coefficients are calculated to the lowest order in $\alpha_s$, but different if higher order contributions need to be considered. 
 Furthermore, Eq.~(\ref{eq:lcsQuasi}) indicates that the quasi-PDFs and pseudo-PDFs are two special cases of good lattice cross sections. 
 
+\subsubsection{Hadronic tensor methods}
 
+Keh-Fei, Schierholz,Detmold+Lin
 
 
 \subsection{Generalized Parton Distribution Functions}
@@ -174,6 +183,10 @@ Furthermore, Eq.~(\ref{eq:lcsQuasi}) indicates that the quasi-PDFs and pseudo-PD
 	
 \end{itemize}
 
+Generalized parton distributions (GPDs) \cite{Mueller,Ji:2001wha<Radyushkin,Diedl,Belitsky} provide further insight into the quark and gluon structure of hadrons, combining parton dependence on longitudinal and transverse momentum. GPDs are accessible in deeply virtual Compton scattering and deeply-virtual vector meson production in particular. Basic aspects of tehse distributions have been investigated at JLab, COMPASS and HERMES and a significant fraction of the experimental program at JLab12GeV is focused on revealing more  information about  GPDs. Lattice calculations have focused on the generalized form factors (GFFs) that parameterize off-forward matrix elements of local twist-two operators and correspond to moments of GPDs. 
+
+
+GPDs also encode the spin decomposition of the proton through Ji's sum rule \cite{} that separates quark spin, orbital angular momentum and the total gluon angular momentum. A further decomposition valid in a particular gauge 
 
 \subsection{Transverse momentum-dependent parton distributions}
 
