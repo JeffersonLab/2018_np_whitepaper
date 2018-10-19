@@ -17,22 +17,21 @@ There are many opportunities for increased effort in this area as well as many t
 Extending existing calculations to even moderately larger $A$ will have significant impact as nuclei that require $p$-shell configurations become accessible. These systems depend on more complicated aspects of hte nuclear forces than the $A\le4$ nuclei that have been studied and new lattice calculations will be useful in constraining different spin and isospin components of these forces. Larger nuclei also exhibit interesting collective effects such as halo structures (eg,  ${}^{6,8}$He), cluster structures (eg ${}^{8}$Be, ${}^{12}$C) and deformations that would be very instructive to see emerge from LQCD calculations. Additionally, LQCD offers the possibility of investigating nuclei away from the physical quark masses, or for different gauge and fermion content of the theory, as an intellectual pursuit of its own in which questions related to the naturalness of nuclear physics \cite{Orginos:2015aya}. Calculations in this direction using $N_f=N_c=2$ appear in Refs.~\cite{Detmold:2014qqa,Detmold:2014kba}.
 
 For bound nuclear systems there are two exponentially difficult algorithmic challenges that must be addressed. The complexity of contractions grows 
-facorially with the system size, at least naively; calculations for $^4$He are naively $6!6!/2\sim 260,000$ more difficult than fro a proton. Efforts to reduce these costs have enabled the progress described above
-
-
-\subsection{Nuclear interactions}
-
-\begin{itemize}
-	\item Scattering  phase shifts of $NN$ systems. validation of LQCD calculations at physical point. Understanding role of Coulomb, eg $a_{pp}$ vs $a_{np}$ vs $a_{nn}$ in the spin singlet channel.
-	\item Scattering phase shifts for  hyperon-nucleon and hyperon-hyperon systems. Input to nuclear equation of state (EoS) for potential hyperonic matter in neutron stars; connection to NS-NS mergers and NICER.
-	\item Three and four body forces. Experimental constrain in particular on $nnn$ interactions is poor but increasingly relevant in larger nuclei. Most direct constrain is from EFT matching to finite volume energy levels computed in LQCD. Multiple EFT groups using unphysical mass lattice calculations to do this right now:LANL, Hagen/ORNL (pion-full), Lovato/Pederiva, Van Kolck using different EFT formulations
-	\item Interaction of light nuclei with electroweak probes: $np\to d\gamma$, $pp\to de^+\nu$, ... 
-	Important to extract two, three body current contributions as one-body pieces presumably better known from single nucleon calculations/experiment.
-\end{itemize}
+facorially with the system size, at least naively; calculations for $^4$He are naively $6!6!/2\sim 260,000$ more difficult than for a proton. Efforts to reduce these costs have enabled the progress described above and have proceeded via construction of enumerative \cite{Doi:2012xd,Gunther:2013xj} and recursive \cite{Detmold:2012eu} algorithms. 
 
 
 \subsection{Nuclear Structure}
 \label{sec:nuclearstructure}
+
+Nuclei are complex objects and exploration of their structure from the underlying quark and gluon degrees of freedom offers challenges and opportunities for new calculations. The structure of 
+
+
+Interactions of nuclei with electroweak probes provide much of the information we have about hadron structure phenomenologucally. 
+The magnetic moments,  higher multiple moments and polarizabilities  enable a static picture of nuclei to be determined. The corresponding form factors 
+
+Nuclear parton distributions provide further information on the substructure of nuclei and have historically been one of the 
+most striking examples of an arena in which non-nucleonic degrees of freedom are important inside the nucleus. The EMC effect \cite{Aubert:1983XX}  
+
 \begin{itemize}
 	\item Explore nuclear modification of hadron structure. Modifications of charges, form factors, moments of PDFs  (derive the EMC effect from QCD). 
 	Do this with complete flavour breakdown
@@ -43,19 +42,30 @@ facorially with the system size, at least naively; calculations for $^4$He are n
 
 
 
+
+
+\subsection{Nuclear interactions}
+
+\begin{itemize}
+	\item Scattering  phase shifts of $NN$ systems. validation of LQCD calculations at physical point. Understanding role of Coulomb, eg $a_{pp}$ vs $a_{np}$ vs $a_{nn}$ in the spin singlet channel.
+	\item Scattering phase shifts for  hyperon-nucleon and hyperon-hyperon systems. Input to nuclear equation of state (EoS) for potential hyperonic matter in neutron stars; connection to NS-NS mergers and NICER.
+	\item Three and four body forces. Experimental constrain in particular on $nnn$ interactions is poor but increasingly relevant in larger nuclei. Most direct constrain is from EFT matching to finite volume energy levels computed in LQCD. Multiple EFT groups using unphysical mass lattice calculations to do this right now:LANL, Hagen/ORNL (pion-full), Lovato/Pederiva, Van Kolck using different EFT formulations
+	\item Interaction of light nuclei with electroweak probes: $np\to d\gamma$, $pp\to de^+\nu$, ... 
+	Important to extract two, three body current contributions as one-body pieces presumably better known from single nucleon calculations/experiment.
+	\item Double beta decay
+\end{itemize}
+
+For some specific nuclei such as germanium, single $\beta$ decay is energetically forbidden, but double $\beta$ decay is allowed. In the Standard Model, this decay occurs with the release of two electrons and two anti-neutrinos, conserving lepton number  ($2\nu\beta\beta$-decay). In many beyond the standard model scenarios, either with light Majorana neutrinos (particles that are their own antiparticles) or with other forms of lepton number non-conservation at high scales,  a second form of  double $\beta$ decay that involves no neutrinos in the final state ($0\nu\beta\beta$-decay) can occur. Observation of this latter process would be an unambiguous signal for new physics. Understanding of the implications of such an observation, as well as design of future experiments seeking this decay mode, requires understanding the relevant $\Delta I=2$ nuclear transition matrix elements. This is a challenging task and state-of-the-art nuclear theory calculations differ by an order of magnitude. LQCD offers the prospect of providing useful input in this area through calculations of the relevant matrix elements in light nuclei that can be used to control uncertainties in nuclear models. In the last two years, the $2\nu\beta\beta$ process has been studied in the $pp\to nn$ transition \cite{Tiburzi:2017iux,Shanahan:2017bgi},  the pionic matrix elements, $\langle \pi^+ | {\cal O} | \pi^- \rangle$, of $\Delta I =2$ short distance operators \cite{Nicholson:2018mwc}, and the $\pi^-\to \pi^+ e^- e^-$ and $\pi^-\pi^-\to e^-e^-$ transitions induced  by a light Majorane neutrino \cite{Feng:2018pdq,Murphy2018ICHEP}, have all been investigated for the first time. Future refinements of these calcualtions have the potential to significan
+
+
+
+
 \subsection{Nuclear input for neutrino physics and fundamental symmetries}
 
-%\begin{itemize}
-%	\item nuclear matrix elements for experiment interpretation (DM searches, nu-nucleus scattering,…)
-%	\item dark matter matrix elements [passing connection to other doc on Fundamental Symmetries], $\mu 2e$ matrix elements
-%	\item Precision isotope shift spectroscopy 
-%	\item Primarily link to other white papers
-%\end{itemize}
 
-\hide{
 Nuclei are used as targets in intensity frontier experiments that are trying to probe the neutrino sector and to look for physics beyond the SM. In particular, argon ($Z=18$) is the target material for a number of current neutrino experiments and will be the target for the upcoming Deep Underground Neutrino Experiment (DUNE), while a range of nuclei such as sodium ($Z=11$), xenon ($Z=54$) are used in dark matter direct detection experiments \cite{Undagoitia:2015gya}. Charge lepton flavor violation searches look for $\mu\to e$ conversion in the field of aluminium ($Z=13$) \cite{Albrecht:2013wet}, and precision isotope-shift spectroscopy experiments consider a wide range of nuclei ranging from hydrogen ($Z=1$) to ytterbium ($Z=70$) in  order to constrain new physics \cite{Delaunay:2016brc,Delaunay:2017dku}, both requiring knowledge of various nuclear matrix elements \cite{Chang:2017eiq}. Finally, double-$\beta$ decay (DBD) searches utilize heavy isotopes to search for lepton number violation through neutrinoless DBD \cite{DellOro:2016tmg,Engel:2016xgb,Nicholson:2016byl,Shanahan:2017bgi,Tiburzi:2017iux}.
 
 All of the techniques discussed above in the study of nuclear spectroscopy, structure and interactions are applicable in these areas, and calculations are being actively pursued. We leave a full discussion of these topics to the two companion USQCD whitepapers on Neutrino-Nucleus Interactions and on Fundamental Symmetries.
 
-}
+
 
