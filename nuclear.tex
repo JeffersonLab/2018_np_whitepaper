@@ -4,11 +4,11 @@
 
 \subsection{Nuclear spectroscopy}
 
-Determining the ground state energies and binding energies of light nuclei is a central challenge. The very first QCD calculations of nuclei less than a decade old and significant advances in the study of nuclear systems have occurred over the last five years.
+Determining the ground state energies and binding energies of light nuclei is a central challenge for LQCD in nuclear physics. The very first LQCD calculations of nuclei are less than a decade old and significant advances in the study of nuclear systems have occurred over the last five years.
 The first calculations of bound systems with baryon number $A\ge2$ were of the doubly-strange $H$-dibaryon system at unphysical quark masses
 \cite{Beane:2010hg,Inoue:2010es,Beane:2011xf}. Additional calculations have ensued \cite{Beane:2012vq,Yamazaki:2012hi,Yamazaki:2015asa}, with almost physical quark mass calculations being currently performed by the PACS-CS collaboration \cite{}. Of particular note
 
-Nuclear systems are particularly challenging for LQCD for multiple reasons. As emphasised by Parisi and Lepage \cite{Lepage:1989hd,Parisi:1983ae,Hamber:1983vu}, single baryon correlation functions exhibit a signal-to-noise ratio that degrades exponentially with the temporal separation. FOr nuclear systems, the problem only becomes more challenging \cite{Beane:2009kya,Beane:2009gs}. Extraction of the eigen-energies is consequently challenging. A number of methods have been developed that aim to ameliorate this issue, either defining better-behaved estimators \cite{Beane:2014oea,Wagman:2017gqi,Wagman:2017xfh,Wagman:2016bam} or new analysis strategies that optimize the ratio of signal to noise \cite{Detmold:2014hla}. None of these methods has completely solved the noise problem, but have proved sufficient for studies of the lightest few nuclei. 
+Nuclear systems are particularly challenging for LQCD for multiple reasons. As emphasised by Parisi and Lepage \cite{Lepage:1989hd,Parisi:1983ae,Hamber:1983vu}, single baryon correlation functions exhibit a signal-to-noise ratio that degrades exponentially with the temporal separation. FOr nuclear systems, the problem only becomes more challenging \cite{Beane:2009kya,Beane:2009gs}. Extraction of the eigen-energies is consequently challenging. A number of methods have been developed that aim to ameliorate this issue, either defining better-behaved estimators \cite{Beane:2014oea,Wagman:2017gqi,Wagman:2017xfh,Wagman:2016bam,Detmold:2018eqd} or new analysis strategies that optimize the ratio of signal to noise \cite{Detmold:2014hla}. None of these methods has completely solved the noise problem, but have proved sufficient for studies of the lightest few nuclei. 
 
 The first calculations of bound nuclear states in QCD have been performed by the NPLQCD collaboration \cite{} and the PACS-CS collaboration (bound states have also been found using HAL potential method \cite{} based on Refs.~\cite{}, although it is only recently that systematics have begun to be addressed in this method \cite{}). Bound states have been studied over a range of quark masses and atomic numbers with a recent review of these results is presented in Ref.~\cite{}. These calculations have been used as input in effective field theory analyses that extend the reach of LQCD calculations to larger nuclei \cite{Barnea:2013uqa,MORE}.
 
@@ -18,6 +18,9 @@ Extending existing calculations to even moderately larger $A$ will have signific
 
 For bound nuclear systems there are two exponentially difficult algorithmic challenges that must be addressed. The complexity of contractions grows 
 facorially with the system size, at least naively; calculations for $^4$He are naively $6!6!/2\sim 260,000$ more difficult than for a proton. Efforts to reduce these costs have enabled the progress described above and have proceeded via construction of enumerative \cite{Doi:2012xd,Gunther:2013xj} and recursive \cite{Detmold:2012eu} algorithms. 
+
+Given the exponentially hard nature of these challenges, new techniques making use of machine learning \cite{Shanahan:2018vcv} and also quantum information science will potentially have transformative  impact 
+in the many body lattice QCD in particular. Some new directions are discussed in the companion White Paper on Computational Lattice Field Theory.
 
 
 \subsection{Nuclear Structure}
@@ -29,7 +32,6 @@ development of our understanding of nuclear structure.
 Nuclear parton distributions provide further information on the substructure of nuclei as seen from boosted processes such as deep-inelastic scattering, and have historically been one of the 
 most striking examples of an arena in which non-nucleonic degrees of freedom are important inside the nucleus. The EMC effect \cite{Aubert:1983XX}, discovered in 1983, shows that the distribution of quarks and gluons in a nucleus is different from the incoherent sum of the distribution in the nucleon.
 
-From the LQCD point of view, only the first steps have been taken in this direction, with isovector magnetic moments \cite{Beane:2014ora,Beane:2015yha,Detmold:2015daa} and magnetic  polarizabilities \cite{Chang:2015qxa} of nuclei up to $A=4$ being computed at heavier than physical quark masses using background field methods. Interestingly, relations that exist between magnetic moments in phenomenology are also apparent in the LQCD resutls at heavy quark masses. For example,  the magnetic moment of the triton is very close to the magnetic moment of the neutron as in the simplest shell-model configuration, the two protons spin pair to zero. The extracted magnetic moments and polarizabilities are summarized in Fig.~\ref{fig:summaryBETA} and as seen in left panel, the close agreement between the LQCD  and experimental magnetic moments is striking.
 %
 \begin{figure}[!t]
 	\centering
@@ -51,9 +53,11 @@ From the LQCD point of view, only the first steps have been taken in this direct
 		The differences of the scalar, axial and tensor current matrix elements of light nuclei from single particle expectations ~\protect\cite{Beane:2015yha}. Nuclear effects can be identified by the deviation of quantities from zero.   
 	}
 	\label{fig:SAT}
-	\vspace*{-1.5cm}
+	\vspace*{-0.5cm}
 \end{wrapfigure}
 %
+From the LQCD point of view, only the first steps have been taken in this direction, with isovector magnetic moments \cite{Beane:2014ora,Beane:2015yha,Detmold:2015daa} and magnetic  polarizabilities \cite{Chang:2015qxa} of nuclei up to $A=4$ being computed at heavier than physical quark masses using background field methods. Interestingly, relations that exist between magnetic moments in phenomenology are also apparent in the LQCD resutls at heavy quark masses. For example,  the magnetic moment of the triton is very close to the magnetic moment of the neutron as in the simplest shell-model configuration, the two protons spin pair to zero. The extracted magnetic moments and polarizabilities are summarized in Fig.~\ref{fig:summaryBETA} and as seen in left panel, the close agreement between the LQCD  and experimental magnetic moments is striking.
+
 The Gamov-Teller (GT) contribution to the weak decay of the triton \cite{Savage:2016kon} and the coupling on $A\le3$ nuclei to scalar and tensor currents \cite{Chang:2017eiq} has also been investigated using similar background field techniques. The weak decay of the triton is the simplest nuclear probe of weak interactions and the GT contribution is most uncertain. 
 As discussed extensively in the companion White Paper on Fundamental Symmetries, the scalar current is relevant for interactions with nuclei in many models of dark matter~\cite{Undagoitia:2015gya} and for searches for new physics in precision spectroscopy~\cite{Delaunay:2016brc,Delaunay:2017dku}, while the tensor current determines 
 the quark electric dipole moment contribution to a nuclear electric dipole moment~\cite{Engel:2013lsa,Yamanaka:2016umw,Chupp:2017rkp} and is thus an important ingredient in searches for new sources of time-reversal violation. 
@@ -91,20 +95,20 @@ Future calculations will explore the modification of moments of parton distribut
 
 \subsection{Nuclear interactions}
 
-\begin{itemize}
-	\item Scattering  phase shifts of $NN$ systems. validation of LQCD calculations at physical point. Understanding role of Coulomb, eg $a_{pp}$ vs $a_{np}$ vs $a_{nn}$ in the spin singlet channel.
-	\item Scattering phase shifts for  hyperon-nucleon and hyperon-hyperon systems. Input to nuclear equation of state (EoS) for potential hyperonic matter in neutron stars; connection to NS-NS mergers and NICER.
-	\item Three and four body forces. Experimental constrain in particular on $nnn$ interactions is poor but increasingly relevant in larger nuclei. Most direct constrain is from EFT matching to finite volume energy levels computed in LQCD. Multiple EFT groups using unphysical mass lattice calculations to do this right now:LANL, Hagen/ORNL (pion-full), Lovato/Pederiva, Van Kolck using different EFT formulations
 
-\end{itemize}
+Understanding the  forces between nucleons that result in binding into nuclei is a central goal of LQCD studies of
+nuclei. s discussed in Section \ref{sec:hadronspectroscopy} above, two particle interactions can be addressed using the finite volume formalism of L\"uscher that converts finite volume energy levels into determinations of scattering phase shifts up to inelastic thresholds. 
 
+Hyperon-nucleon forces.  Input to nuclear equation of state (EoS) for potential hyperonic matter in neutron stars; connection to NS-NS mergers and NICER.
 
-SCATTERING PHASE SHIFTS
+Potentials
 
-
+Three-nucleon forces can also be determined from finite volume spectroscopy.  However the complexity of the three-body interactions means that the amplitude based methods used for two-particle systems must give way to effective field theory based methods \cite{Detmold:2012wpa,Detmold:2013wda,Detmold:2015jda,Kirscher:2015tka,Davoudi:2017ddj,Savage:2016egr} in which the finite volume eigenspectrum of QCD in the relevant quantum number systems is matched to EFT calculations in the same volume, thereby enabling extraction of the relevant low energy constants. This approach make use of the full statistical power of the LQCD calculations, but relies on the EFT to extract infinite volume physics. Initial EFT studies using muilt-nucleon ground state energies have been undertaken \cite{Barnea:2013uqa,Bansal:2017pwn,Contessi:2017rww}; matching to finite LQCD binding energies has enable determination of LECs of the two and three-nucleon interactions  in pionless and pionful EFTs and extrapolation to larger systems such as $^{16}$O has been possible.
 
 
 
+
+The electroweak interactions of two nucleon systems are particularly important phenomenologically 
 \begin{wrapfigure}{r}{0.5\columnwidth}
 	\centering
 	\includegraphics[width=0.48\columnwidth]{figures/npTOdgamma.png}  
@@ -164,6 +168,16 @@ This work appeared in {\it Physical Review Letters} \cite{Savage:2016kon} in 201
 For some specific nuclei such as germanium, single $\beta$ decay is energetically forbidden, but double $\beta$ decay is allowed. In the Standard Model, this decay occurs with the release of two electrons and two anti-neutrinos, conserving lepton number  ($2\nu\beta\beta$-decay). In many beyond the standard model scenarios, either with light Majorana neutrinos (particles that are their own antiparticles) or with other forms of lepton number non-conservation at high scales,  a second form of  double $\beta$ decay that involves no neutrinos in the final state ($0\nu\beta\beta$-decay) can occur. Observation of this latter process would be an unambiguous signal for new physics. Understanding of the implications of such an observation, as well as design of future experiments seeking this decay mode, requires understanding the relevant $\Delta I=2$ nuclear transition matrix elements. This is a challenging task and state-of-the-art nuclear theory calculations differ by an order of magnitude. LQCD offers the prospect of providing useful input in this area through calculations of the relevant matrix elements in light nuclei that can be used to control uncertainties in nuclear models. In the last two years, the $2\nu\beta\beta$ process has been studied in the $pp\to nn$ transition \cite{Tiburzi:2017iux,Shanahan:2017bgi},  the pionic matrix elements, $\langle \pi^+ | {\cal O} | \pi^- \rangle$, of $\Delta I =2$ short distance operators \cite{Nicholson:2018mwc}, and the $\pi^-\to \pi^+ e^- e^-$ and $\pi^-\pi^-\to e^-e^-$ transitions induced  by a light Majorane neutrino \cite{Feng:2018pdq,Murphy2018ICHEP}, have all been investigated for the first time. Future refinements of these calculations, even restricted to few nucleon systems, have the potential to significantly impact experimental search design.  Already  these finding suggests that nuclear models for neutrinoful and neutrinoless $\beta\beta$ decays need to incorporate this previously neglected contribution if they are to provide reliable guidance for next-generation neutrinoless $\beta\beta$-decay searches. 
 
 
+
+\subsubsection{Future opportunities}
+
+
+
+Scattering  phase shifts of $NN$ systems. validation of LQCD calculations at physical point. Understanding role of Coulomb, eg $a_{pp}$ vs $a_{np}$ vs $a_{nn}$ in the spin singlet channel.
+
+More sophisticated EFT matching 
+
+Light nuclear reactions for the BBN
 
 
 \subsection{Nuclear input for neutrino physics and fundamental symmetries}
