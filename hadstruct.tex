@@ -304,16 +304,12 @@ of renormalization factors expected from continuum QCD. On the other hand,
 in the case of the worm-gear shift, operator mixing is predicted for
 clover fermions \cite{Constantinou:2017sej}, which destroys the simple
 cancellation in ratios; evidence for this was also seen in the data
-collected in \cite{Yoon:2017qzo}. A third challenge for lattice TMD
-calculations is progress towards the physical pion mass. After a
-preliminary study \cite{Engelhardt:2015czw}
-at a pion mass of $m_{\pi } = 170\, \mbox{MeV} $,
-which still suffered from substantial statistical uncertainties,
-a current 150 Mch INCITE allocation is dedicated, with USQCD endorsement,
-to the large-scale production of lattice TMD data at the physical pion mass.
-This program includes the use of boosted nucleon sources to access the
-large rapidity regime, as well as excited state control through
-calculation for a range of source-sink separations.
+collected in \cite{Yoon:2017qzo}.
+A preliminary study~\cite{Engelhardt:2015czw} with nearly physical
+pions indicates higher statistical precision is warranted. New efforts
+include the use of boosted nucleon sources to access the large
+rapidity regime, as well as excited state control through calculation
+for a range of source-sink separations.
 
 \begin{figure}[h!]
 	\centering
@@ -334,10 +330,10 @@ calculation for a range of source-sink separations.
 
 In addition to the aforementioned calculations, which concentrated on
 transverse momentum dependence while integrating over longitudinal
-momentum fraction $x$, exploratory data have also been gathered on the
+momentum fraction $x$, there are explorations of the
 $x$-dependence of the Sivers shift, achieved by adding a
 longitudinal separation in the bilocal quark operator defining TMDs.
-These data are awaiting analysis. Furthermore, the generalization
+Furthermore, the generalization
 of TMDs to non-zero momentum transfer (GTMDs) was explored in
 \cite{Engelhardt:2017miy}, with a specific focus on the direct
 calculation of quark orbital angular momentum (OAM) in the proton.
@@ -348,17 +344,17 @@ as $L=J-S$ via Ji's sum rule). Moreover, this approach allows one
 to not only calculate Ji OAM, but also Jaffe-Manohar OAM.
 Fig.~\ref{tmd_comp} (right) displays a gauge-invariant, quasi-continuous
 interpolation between these two OAM definitions from \cite{Engelhardt:2017miy}.
-Currently, this first calculation is being improved upon by employing a
-direct derivative method to treat the derivative with respect to
-momentum transfer needed to extract OAM.
+%Currently, this first calculation is being improved upon by employing a
+%direct derivative method to treat the derivative with respect to
+%momentum transfer needed to extract OAM.
 
-{\it TMDs: Future program and resource requirements}
+\paragraph{TMDs: Future opportunities:}
+
 The investigations described above provide the necessary foundation for
 the controlled, precise prediction of selected TMD observables from
 lattice QCD. The chief systematic challenges have been explored,
 and a tentative roadmap of incremental refinement of the calculations can
-be projected. As already implemented within the current INCITE project,
-the use of boosted nucleon sources will allow access to the large
+be projected. The use of boosted nucleon sources will allow access to the large
 rapidity regime. Discretization effects will need to be quantified
 as momenta are increased. This, as well as a quantitative treatment
 of the renormalization and QCD evolution of lattice TMD observables,
@@ -368,29 +364,29 @@ sequence of calculations with decreasing lattice spacings.
 In assessing the required resources, it should be noted that lattice
 TMD calculations are dominated by the cost of the large number of
 contractions, as opposed to the cost of the inversions needed to
-obtain propagators. TMD calculations are unique in this respect;
-the large number of contractions results from the multitude of
+obtain propagators. The large number of contractions results from the multitude of
 staple-shaped gauge link geometries that must be surveyed in order
 to perform the necessary extrapolations to long staple length as
 well as large rapidity difference between struck quark and hadron
-remnant in a deep-inelastic scattering process. This characteristic
-allows for a fairly simple estimate of the computing costs. Keeping
-physical parameters constant, the costs scale as the inverse 4th power
-of the lattice spacing. Thus, to perform a calculation at half the
-currently employed lattice spacing requires 16 times the resources.
-Combining this with the volume of the current INCITE allocation of
-150 Mch, a lattice TMD project at the physical pion mass and lattice
-spacing around 0.05 fm will require resources of the order of
-2 Gch.
+remnant in a deep-inelastic scattering process. 
+%This characteristic
+%allows for a fairly simple estimate of the computing costs. Keeping
+%physical parameters constant, the costs scale as the inverse 4th power
+%of the lattice spacing. Thus, to perform a calculation at half the
+%currently employed lattice spacing requires 16 times the resources.
+%Combining this with the volume of the current INCITE allocation of
+%150 Mch, a lattice TMD project at the physical pion mass and lattice
+%spacing around 0.05 fm will require resources of the order of
+%2 Gch.
 
-In connection with the renormalization of lattice TMD observables,
-also the operator mixing induced in selected quantities by the clover
-fermion discretization needs to be taken into account. Whereas this
-mixing can be avoided by using chirally symmetric domain wall fermions,
-we envisage utilizing also the large set of clover ensembles generated
-by the W\&M/JLab collaboration for TMD studies. A scheme along the lines
-put forward, e.g., in \cite{Green:2017xeu} will serve to incorporate mixing
-effects in clover calculations.
+%In connection with the renormalization of lattice TMD observables,
+%also the operator mixing induced in selected quantities by the clover
+%fermion discretization needs to be taken into account. Whereas this
+%mixing can be avoided by using chirally symmetric domain wall fermions,
+%we envisage utilizing also the large set of clover ensembles generated
+%by the W\&M/JLab collaboration for TMD studies. A scheme along the lines
+%put forward, e.g., in \cite{Green:2017xeu} will serve to incorporate mixing
+%effects in clover calculations.
 
 A further aspect that remains to addressed is the flavor separation
 of TMD observables and sea quark effects, as targeted, e.g., by the Fermilab
@@ -398,21 +394,25 @@ E-906/SeaQuest experiment. This calls for the evaluation of disconnected
 diagram contributions, which hitherto have not been studied in lattice TMD
 investigations. An efficient calculation of these diagrams will be possible
 employing hierarchical probing methods \cite{Stathopoulos:2013aci}.
-Based on our experience
-in the context of form factor calculations \cite{Green:2015wqa}, these methods
-can yield disconnected contributions at about twice the cost of the connected
-contributions. Thus, a fully flavor-separated calculation including
-quark loops requires altogether about three times the resources compared
-to a calculation of the connected contributions only. This factor has to
-be compounded with the estimates made above. It should moreover be
-noted that this does not yet take into account the mixing of gluonic
-operators with flavor singlet quark operators. Incorporating this mixing
-is an additional component which is yet to be explored in the context
-of lattice TMD calculations.
+%Based on our experience
+%in the context of form factor calculations \cite{Green:2015wqa}, these methods
+%can yield disconnected contributions at about twice the cost of the connected
+%contributions. 
+%Thus, a fully flavor-separated calculation including
+%quark loops requires altogether about three times the resources compared
+%to a calculation of the connected contributions only. This factor has to
+%be compounded with the estimates made above. 
+Future calculations will also need to account for mixing of gluonic
+operators with flavor singlet quark operators, heretofore not considered.
+%It should moreover be
+%noted that this does not yet take into account the mixing of gluonic
+%operators with flavor singlet quark operators. Incorporating this mixing
+%is an additional component which is yet to be explored in the context
+%of lattice TMD calculations.
 
 Complementary to these improvements of the systematics of lattice TMD
 calculations, also the incorporation of further physics objectives is
-envisaged. To date, our calculations have focused on transverse nucleon
+envisaged. To date, calculations have focused on transverse nucleon
 polarization, with which one can probe the particularly interesting
 Sivers and Boer-Mulders effects. Nonetheless, also the TMDs associated
 with longitudinal nucleon polarization are of interest and include a
