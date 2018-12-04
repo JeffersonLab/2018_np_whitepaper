@@ -66,27 +66,34 @@ Parton distributions functions (PDFs)  are the densities
 of quarks and gluons carrying a fraction $x$ of the longitudinal hadron momentum.
 They  are defined as matrix 
 elements in a hadron state of bi-local operators in the light-cone frame, where 
-the hadron carries momentum $p$ with plus/minus components
-$p^\pm=(p^0\pm p^3)/\sqrt{2}$, and transverse components equal to zero.
-%
-In the case of unpolarized and polarized quark PDFs, one has
-\begin{align}
-q(x) & = \frac{1}{4\pi}
-\int dy^-e^{-iy^-xp^+}\langle p|\bar{\psi}(0,y^-,\mathbf{0}_\perp)
-\gamma^+\mathcal{G}\psi(0,0,\mathbf{0})|p\rangle\,,
-\label{eq:LCdefunp}\\
-\Delta q(x) & = \frac{1}{4\pi}
-\int dy^-e^{-iy^-xp^+}\langle p, s|\bar{\psi}(0,y^-,\mathbf{0}_\perp)
-\gamma^+\gamma^5\mathcal{G}\psi(0,0,\mathbf{0})|p, s\rangle\,,
-\label{eq:LCdefpol}
-\end{align}
-where $\psi$ is the quark field and $\mathcal{G}$ is an appropriate gauge link
-required to make Eqs.~\eqref{eq:LCdefunp}--\eqref{eq:LCdefpol} gauge invariant.
-%
-See Refs.~\cite{Collins:1981uw,Curci:1980uw,Baulieu:1979mr,Collins:1989gx} 
-for the definition of $\mathcal{G}$ and for
-explicit light-cone formul{\ae} of unpolarized an polarized gluon PDFs.
-Parton distribution functions are non-perturbative objects that can be determined  from experiment. 
+the hadron carries momentum directed along the light cone and
+transverse components are equal to zero~\cite{Collins:1981uw,Curci:1980uw,Baulieu:1979mr,Collins:1989gx}.
+ 
+
+%Parton distributions functions (PDFs)  are the densities 
+%of quarks and gluons carrying a fraction $x$ of the longitudinal hadron momentum.
+%They  are defined as matrix 
+%elements in a hadron state of bi-local operators in the light-cone frame, where 
+%the hadron carries momentum $p$ with plus/minus components
+%p^\pm=(p^0\pm p^3)/\sqrt{2}$, and transverse components equal to zero.
+%%
+%In the case of unpolarized and polarized quark PDFs, one has
+%\begin{align}
+%q(x) & = \frac{1}{4\pi}
+%\int dy^-e^{-iy^-xp^+}\langle p|\bar{\psi}(0,y^-,\mathbf{0}_\perp)
+%\gamma^+\mathcal{G}\psi(0,0,\mathbf{0})|p\rangle\,,
+%\label{eq:LCdefunp}\\
+%\Delta q(x) & = \frac{1}{4\pi}
+%\int dy^-e^{-iy^-xp^+}\langle p, s|\bar{\psi}(0,y^-,\mathbf{0}_\perp)
+%\gamma^+\gamma^5\mathcal{G}\psi(0,0,\mathbf{0})|p, s\rangle\,,
+%\label{eq:LCdefpol}
+%\end{align}
+%where $\psi$ is the quark field and $\mathcal{G}$ is an appropriate gauge link
+%required to make Eqs.~\eqref{eq:LCdefunp}--\eqref{eq:LCdefpol} gauge invariant.
+%See Refs.~\cite{Collins:1981uw,Curci:1980uw,Baulieu:1979mr,Collins:1989gx} 
+%for the definition of $\mathcal{G}$ and for
+%explicit light-cone formul{\ae} of unpolarized an polarized gluon PDFs.
+%Parton distribution functions are non-perturbative objects that can be determined  from experiment. 
 
 Lattice QCD has also been employed from its early days in order  to calculate PDFs from first principles.  However, the
 formulation of lattice QCD in Euclidean space provided a formidable
@@ -98,57 +105,63 @@ The analytic continuation of the matrix elements that define the PDFs to Euclide
 Recently, new ideas have
 been proposed that aim to circumvent this
 problem~\cite{Ji:2013dva,Ji:2014gla} known as the "Large Momentum Effective Field Theory" (LaMET).
-In this approach, one computes a time local version of the matrix element that defines the PDF in Euclidean space given by
-%
-\begin{equation}\label{eq:qPDF}
-h_\alpha(z,p_z) 
-= 
-\frac{1}{4 p_{\alpha}}\sum_{s=1}^2\left\langle p,s\right\vert \bar{\psi}(z)\gamma_\alpha e^{ig\int_0^z
-A_z(z^\prime) dz^\prime} \psi(0) \left\vert p,s\right\rangle,
-\end{equation}
-%
-where $p_\alpha$ is the proton momentum $s$ its spin, and $z$ is the separation of the quark and anti quark fields $\bar\psi$ and $\psi$. A convenient choice is to take the 
-proton momentum  and quark, anti-quark separation to be along the $z$ direction (time local) while the Lorentz index $\alpha$ is taken along the time direction $\alpha = 4$~\cite{Xiong:2013bka,Radyushkin:2016hsy,Radyushkin:2017cyf,Orginos:2017kos}. 
+In this approach, one computes a time local version of the matrix element that defines the PDF in Euclidean space
+where the external states have a suitably large momentum  and the
+bi-local quark insertion is separated by some spatial distance.
 
-With these choices, the quasi-PDF is defined by
-\begin{equation}
-\widetilde{q}(x,\Lambda,p_z)  
-=   \int \frac{dz}{2\pi} e^{-i x z p_z} p_z h_4(z,p_z), 
-\end{equation}
-where $\Lambda$ is an UV cut-off scale, such as the inverse lattice spacing 
-$1/a$. 
-In the context of LaMET~\cite{Ji:2013dva,Ji:2014gla}
- this can be related to PDFs using the matching condition
-%
-\begin{equation} \label{eq:qPDFmatching}
-\widetilde{q}(x,\Lambda ,p_z) = 
-  \int_{-1}^1 \frac{dy}{\left\vert y\right\vert} 
-    Z\left( \frac{x}{y}, \frac{\mu}{p_z}, \frac{\Lambda}{p_z}\right)_{\mu^2 = Q^2} q(y,Q^2) +
-  \mathcal{O}\left( \frac{\Lambda_\text{QCD}^2}{p_z^2},\frac{M^2}{p_z^2}\right), 
-\end{equation}
-where $\mu$ is the renormalization scale,
-$Z$ is a matching kernel and $M$ is the nucleon mass.
-Here the $\mathcal{O}\left(M^2/p_z^2\right)$ terms are target-mass corrections 
-and the $\mathcal{O}\left(\Lambda_\text{QCD}^2/p_z^2\right)$ terms are 
-higher-twist effects, both of which are suppressed at large nucleon momentum. 
-In the above construction it is assumed that the matrix element  $h_4(z,p_z)$, is renormalized appropriately. 
-This can be accomplished using nonperturbative schemes, such as the 
-RI/MOM scheme~\cite{Martinelli:1994ty}. This approach has been recently used  for quasi-PDFs  in Refs.~\cite{Alexandrou:2017huk,Chen:2017mzz,Green:2017xeu}.
+%In this approach, one computes a time local version of the matrix element that defines the PDF in Euclidean space given by 
+%%
+%\begin{equation}\label{eq:qPDF}
+%h_\alpha(z,p_z) 
+%= 
+%\frac{1}{4 p_{\alpha}}\sum_{s=1}^2\left\langle p,s\right\vert \bar{\psi}(z)\gamma_\alpha e^{ig\int_0^z
+%A_z(z^\prime) dz^\prime} \psi(0) \left\vert p,s\right\rangle,
+%\end{equation}
+%%%
+%where $p_\alpha$ is the proton momentum $s$ its spin, and $z$ is the separation of the quark and anti quark fields $\bar\psi$ and $\psi$. A convenient choice is to take the proton momentum  and quark, anti-quark separation to be along the $z$ direction (time local) while the Lorentz index $\alpha$ is taken along the time direction $\alpha = 4$~\cite{Xiong:2013bka,Radyushkin:2016hsy,Radyushkin:2017cyf,Orginos:2017kos}. 
 
-Alternatively, one can introduce the ratio
-\begin{equation}
-{\mathcal M}(\nu,z^2) =\frac{h_4(p_z,z)}{ h_4(0,z)}
-\label{eq:RatioPseudo}
-\end{equation}
-where $\nu = p_z z$ is a Lorentz invariant called the Ioffe time~\cite{Ioffe:1969kf,Braun:1994jq}. This ratio is free of UV divergences and requires no renormalization. As shown in~\cite{Radyushkin:2016hsy,Radyushkin:2017cyf} it is related to Ioffe time distributions, which are Fourier transforms of the PDFs through
-\begin{equation}
-{\mathcal M}(\nu,z^2) =\int_0^1 d\alpha C(\alpha,z^2\mu) {\cal Q}(\alpha x,\mu^2) +{ \cal O}(z^2)
-\label{eq:MatchPseudo}
-\end{equation}
-where  $C(\alpha,z^2\mu^2) $ is a perturbatively calculable function and {\cal Q} is the Ioffe time PDF which relates to the PDF via a Fourier transform 
-\begin{equation}
-{q}(x,\mu^2)=\int \frac{d\nu}{2\pi} e^{-ix\nu} {\cal Q}(\nu,\mu^2).
-\end{equation}
+With these choices, the quasi-PDF is defined by the fourier transform over the spatial extent of the equal-time matrix element of a spatially directed Wilson-line between quark fields, at some lattice scale. To relate this lattice definition of a PDF to the desired Minkowski light-cone version, matching conditions are implemented within the LaMET~\cite{Ji:2013dva,Ji:2014gla} scheme. Higher-twist effects and target-mass corrections are suppressed at large nucleon momentum. It is assumed the integrand of the fourier transform is suitably renormalized, which has been accomplished using the RI/MOM scheme~\cite{Martinelli:1994ty}. This approach has been recently used  for quasi-PDFs  in Refs.~\cite{Alexandrou:2017huk,Chen:2017mzz,Green:2017xeu}.
+
+%\begin{equation}
+%\widetilde{q}(x,\Lambda,p_z)  
+%=   \int \frac{dz}{2\pi} e^{-i x z p_z} p_z h_4(z,p_z), 
+%\end{equation}
+%where $\Lambda$ is an UV cut-off scale, such as the inverse lattice spacing 
+%$1/a$. 
+%In the context of LaMET~\cite{Ji:2013dva,Ji:2014gla}
+% this can be related to PDFs using the matching condition
+%%
+%\begin{equation} \label{eq:qPDFmatching}
+%\widetilde{q}(x,\Lambda ,p_z) = 
+%  \int_{-1}^1 \frac{dy}{\left\vert y\right\vert} 
+%    Z\left( \frac{x}{y}, \frac{\mu}{p_z}, \frac{\Lambda}{p_z}\right)_{\mu^2 = Q^2} q(y,Q^2) +
+%  \mathcal{O}\left( \frac{\Lambda_\text{QCD}^2}{p_z^2},\frac{M^2}{p_z^2}\right), 
+%\end{equation}
+%where $\mu$ is the renormalization scale,
+%$Z$ is a matching kernel and $M$ is the nucleon mass.
+%Here the $\mathcal{O}\left(M^2/p_z^2\right)$ terms are target-mass corrections 
+%and the $\mathcal{O}\left(\Lambda_\text{QCD}^2/p_z^2\right)$ terms are 
+%higher-twist effects, both of which are suppressed at large nucleon momentum. 
+%In the above construction it is assumed that the matrix element  $h_4(z,p_z)$, is renormalized appropriately. 
+%This can be accomplished using nonperturbative schemes, such as the 
+%RI/MOM scheme~\cite{Martinelli:1994ty}. This approach has been recently used  for quasi-PDFs  in Refs.~\cite{Alexandrou:2017huk,Chen:2017mzz,Green:2017xeu}.
+
+Alternatively, in the pseudo-PDF approach, one considers the ratio of the equal time matrix element of the Wilson line between quarks with the rest-frame density matrix element at zero system moment. The equal time matrix element is parameterized in terms of the product of the spatial momentum with the spatial separation forming a Lorentz invariant called the Ioffe time~\cite{Ioffe:1969kf,Braun:1994jq}, and the ratio corresponds to the Ioffe time distribution.
+%\begin{equation}
+%{\mathcal M}(\nu,z^2) =\frac{h_4(p_z,z)}{ h_4(0,z)}
+%\label{eq:RatioPseudo}
+%\end{equation}
+%where $\nu = p_z z$ is a Lorentz invariant called the Ioffe time~\cite{Ioffe:1969kf,Braun:1994jq}. 
+This ratio is free of UV divergences and requires no renormalization. As shown in~\cite{Radyushkin:2016hsy,Radyushkin:2017cyf} these pseudo-PDFs are related to the Ioffe time distributions. The key distinction between the quasi and pseudo PDF approaches is that in the latter the Fourier transform over all spatial separations is not, in practice, needed. Indeed, recent work has shown that there can be large finite-volume effects within the spatial integration~\cite{Briceno:2018lfj}. An observation from initial lattice calculations using the pseudo-PDF approach~\cite{Karpie:2018zaz,Karpie:2018zaz}  is that Ioffe-time distributions exhibits factorization down to small distances in the spatial separation, where the small distance behavior of the pseudo-PDF  satisfies a perturbative  evolution equation. Thus, rather than computing the entire PDF as a function of Bjorken-$x$, the PDF is parameterized as a function of the Bjorken-$x$, similar to approaches taken in phenomenological studies~\cite{Ball:2017nwa,Accardi:2016qay}. Larger lattice sizes with smaller lattice spacing allow to probe the pertubative evolution scale, including precisely constraining the small-$x$ region.
+%, which are Fourier transforms of the PDFs through a convolution 
+%\begin{equation}
+%{\mathcal M}(\nu,z^2) =\int_0^1 d\alpha C(\alpha,z^2\mu) {\cal Q}(\alpha x,\mu^2) +{ \cal O}(z^2)
+%\label{eq:MatchPseudo}
+%\end{equation}
+%where  $C(\alpha,z^2\mu^2) $ is a perturbatively calculable function and {\cal Q} is the Ioffe time PDF which relates to the PDF via a Fourier transform 
+%\begin{equation}
+%{q}(x,\mu^2)=\int \frac{d\nu}{2\pi} e^{-ix\nu} {\cal Q}(\nu,\mu^2).
+%\end{equation}
 
 
 \subsubsection{Other approaches}
