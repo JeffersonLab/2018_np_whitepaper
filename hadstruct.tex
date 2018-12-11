@@ -22,7 +22,7 @@ The simplest aspects of hadron structure that are probed in electroweak interact
 
 There are a number of particularly important case in this class of LQCD calculations. 
 \begin{itemize}
-	\item The axial charge of the nucleon is a benchmark quantity that known very precisely from experiment. LQCD calculations are also becoming more precise, with uncertainties at the few percent level. With the significant increase in precision that will occur in the next few years, it is possible that this will also become a quantity that tests the Standard Model; this is particularly relevant in the context of current anomalies in different measurements of the neutron lifetime. Recent calculations of this quantity by USQCD collaboration members are becoming increasingly precise \cite{Bhattacharya:2016zcn,Yoon:2016jzj,Chang:2018uxx,Gupta:2018qil} 
+	\item The axial charge of the nucleon is a benchmark quantity that known very precisely from experiment. LQCD calculations are also becoming more precise, with uncertainties at the few percent level. With the significant increase in precision that will occur in the next few years, it is possible that this will also become a quantity that tests the Standard Model; this is particularly relevant in the context of current anomalies in different measurements of the neutron lifetime. Recent calculations of this quantity by USQCD collaboration members are becoming increasingly precise \cite{Bhattacharya:2016zcn,Yoon:2016jzj,Chang:2018uxx,Gupta:2018qil} .
 	\item The scalar charge of the nucleon is relevant to understanding the sensitivity of searches for dark matter at direct-detection experiments. Along with the tensor charge \cite{Gupta:2018lvp}, the scalar charge is also relevant for other searches for physics beyond the Standard Model. These quantities are discussed further in the companion white paper of Fundamental Symmetries.
 	\item The proton charge radius is also of significant phenomenological interest as there are very significant discrepancies in its extraction from muonic hydrogen spectroscopy  and from electronic hydrogen spectroscopy and electron-proton scattering. A few percent QCD calculation of the isovector radius combined with existing precise measurements of the charge radius of the neutron are sufficient to determine the proton charge radius at a level where  LQCD calculations will  have impact on the discrepancy.
 	\item Axial current form factors relevant for neutrino physics (see accompanying whitepaper on this important topic) \cite{Rajan:2017lxk}.
@@ -46,25 +46,27 @@ Second order responses to EM fields are quantified by the electric and magnetic 
 
 The DIS experiments begun at SLAC in the late 1960s, led the way to the observation of asymptotic freedom and the development of QCD as a non-Abelian gauge theory. Efforts to better determine partonic structure have continued ever since this august beginning. Parton distributions are important inputs for experiments at hadron colliders such as the LHC and must be better constrained to fully exploit these experimental programs. They also define the distributions of longitudinal momentum carried by quarks and gluons in hadrons and complement the information obtained in form factors.
 
-
-\subsubsection{Moments of Parton Distribution Functions}
-
-The most well-established calculations that address partonic structure of hadrons are based on calculations of matrix elements of local twist-two operators that arise in the light-cone operator product expansion (OPE) of DIS and related processes. These matrix elements determine the Mellin moments of the underlying parton distributions, and knowing a sufficient number of moments allows for a realistic reconstruction of the PDF. However, the reduced symmetries of the spacetime lattice used in LQCD calculations (typically, the hypercubic group H(4)) compared to the Lorentz group mean that the OPE is complicated by divergent mixing between operators.
-Lattice operators corresponding to the lowest few moments of the unpolarized, polarized and transversity distributions can be chosen such that this mixing is absent at the expense of having nonzero matrix elements only in states of nonzero three-momentum. LQCD calculations of these matrix elements have been undertaken since the first calculations of Martinelli and Sachrajda \cite{Dawson:1997ic} in the 1980s. A recent summary of the calculations of PDF moments is given in \cite{Lin:2017snn}.
-	
-To go beyond the lowest moments, operators involving more complicated finite difference discretizations of the derivative operators can be constructed following ideas developed in three-dimensional discretizations of interpolating operators of fixed angular momentum \cite{}. By using multiple different copies of given irreducible H(4) representations (irreps), better approximations to operators transforming irreducibly under SO(4) symmetries can be constructed. This approach is being actively investigated at present and offers the possibility of calculations of sufficient numbers of moments that a parameterization of the underlying PDF can be constrained.
-
-
-
-\subsubsection{Quasi-distributions and pseudo-distributions}
-
-
 Parton distributions functions (PDFs)  are the densities 
 of quarks and gluons carrying a fraction $x$ of the longitudinal hadron momentum.
 They  are defined as matrix 
 elements in a hadron state of bi-local operators in the light-cone frame, where 
 the hadron carries momentum directed along the light cone and
 transverse components are equal to zero~\cite{Collins:1981uw,Curci:1980uw,Baulieu:1979mr,Collins:1989gx}.
+
+
+\subsubsection{Moments of Parton Distribution Functions}
+
+The most well-established calculations that address partonic structure of hadrons are based on calculations of matrix elements of local twist-two operators that arise in the light-cone operator product expansion (OPE) of DIS and related processes. These matrix elements determine the Mellin moments of the underlying parton distributions, and knowing a sufficient number of moments allows for a realistic reconstruction of the PDF. However, the reduced symmetries of the spacetime lattice used in LQCD calculations (typically, the hypercubic group H(4)) compared to the Lorentz group mean that the OPE is complicated by divergent mixing between operators.
+Lattice operators corresponding to the lowest few moments of the unpolarized, polarized and transversity distributions can be chosen such that this mixing is absent at the expense of having nonzero matrix elements only in states of nonzero three-momentum. LQCD calculations of these matrix elements have been undertaken since the first calculations of Martinelli and Sachrajda \cite{Dawson:1997ic} in the 1980s. A recent summary of the calculations of PDF moments is given in \cite{Lin:2017snn}.
+	
+To go beyond the lowest moments, operators involving more complicated finite difference discretizations of the derivative operators can be constructed following ideas developed in three-dimensional discretizations of interpolating operators of fixed angular momentum \cite{Davoudi:2012ya} . By using multiple different copies of given irreducible H(4) representations (irreps), better approximations to operators transforming irreducibly under SO(4) symmetries can be constructed. This approach is being actively investigated at present and offers the possibility of calculations of sufficient numbers of moments that a parameterization of the underlying PDF can be constrained.
+
+
+
+\subsubsection{Quasi-distributions and pseudo-distributions}
+
+
+
  
 
 %Parton distributions functions (PDFs)  are the densities 
@@ -92,15 +94,10 @@ transverse components are equal to zero~\cite{Collins:1981uw,Curci:1980uw,Baulie
 %explicit light-cone formul{\ae} of unpolarized an polarized gluon PDFs.
 %Parton distribution functions are non-perturbative objects that can be determined  from experiment. 
 
-Lattice QCD has also been employed from its early days in order  to calculate PDFs from first principles.  However, the
-formulation of lattice QCD in Euclidean space provided a formidable
-restriction: the $x$ dependence could not be computed directly, but
-only the $x$ moments of the distributions.  Furthermore, the breaking
-of rotational symmetry on the lattice in practice restricted such
-calculations to only the first few moments. 
-The analytic continuation of the matrix elements that define the PDFs to Euclidean space is highly non-trivial due to the fact that these matrix elements are not local in time.
-
-Recently, new ideas have
+The formulation of lattice QCD in Euclidean space severely restricts
+lattice calculations of partonic structure: the $x$ dependence could not be computed directly, but
+only the $x$ moments of the distributions.  
+The analytic continuation of the matrix elements that define the PDFs to Euclidean space is highly non-trivial due to the fact that these matrix elements are not local in time. Recently, new ideas have
 been proposed that aim to circumvent this
 problem~\cite{Ji:2013dva,Ji:2014gla} known as the "Large Momentum Effective Field Theory" (LaMET).
 In this approach, one computes a time local version of the matrix element that defines the PDF in Euclidean space
@@ -144,13 +141,13 @@ With these choices, the quasi-PDF is defined by the fourier transform over the s
 %This can be accomplished using nonperturbative schemes, such as the 
 %RI/MOM scheme~\cite{Martinelli:1994ty}. This approach has been recently used  for quasi-PDFs  in Refs.~\cite{Alexandrou:2017huk,Chen:2017mzz,Green:2017xeu}.
 
-Alternatively, in the pseudo-PDF approach, one considers the ratio of the equal time matrix element of the Wilson line between quarks with the rest-frame density matrix element at zero system moment. The equal time matrix element is parameterized in terms of the product of the spatial momentum with the spatial separation forming a Lorentz invariant called the Ioffe time~\cite{Ioffe:1969kf,Braun:1994jq}, and the ratio corresponds to the Ioffe time distribution.
+Alternatively, in the pseudo-PDF approach, one considers the ratio of the equal time matrix element of the Wilson line between quarks with the rest-frame density matrix element at zero system momentum. The equal time matrix element is parameterized in terms of the product of the spatial momentum with the spatial separation forming a Lorentz invariant called the Ioffe time~\cite{Ioffe:1969kf,Braun:1994jq}, and the ratio corresponds to the Ioffe time distribution.
 %\begin{equation}
 %{\mathcal M}(\nu,z^2) =\frac{h_4(p_z,z)}{ h_4(0,z)}
 %\label{eq:RatioPseudo}
 %\end{equation}
 %where $\nu = p_z z$ is a Lorentz invariant called the Ioffe time~\cite{Ioffe:1969kf,Braun:1994jq}. 
-This ratio is free of UV divergences and requires no renormalization. As shown in~\cite{Radyushkin:2016hsy,Radyushkin:2017cyf} these pseudo-PDFs are related to the Ioffe time distributions. The key distinction between the quasi and pseudo PDF approaches is that in the latter the Fourier transform over all spatial separations is not, in practice, needed. Indeed, recent work has shown that there can be large finite-volume effects within the spatial integration~\cite{Briceno:2018lfj}. An observation from initial lattice calculations using the pseudo-PDF approach~\cite{Karpie:2018zaz,Karpie:2018zaz}  is that Ioffe-time distributions exhibits factorization down to small distances in the spatial separation, where the small distance behavior of the pseudo-PDF  satisfies a perturbative  evolution equation. Thus, rather than computing the entire PDF as a function of Bjorken-$x$, the PDF is parameterized as a function of the Bjorken-$x$, similar to approaches taken in phenomenological studies~\cite{Ball:2017nwa,Accardi:2016qay}. Larger lattice sizes with smaller lattice spacing allow to probe the perturbative evolution scale, including precisely constraining the small-$x$ region.
+This ratio is free of UV divergences and requires no renormalization. As shown in~\cite{Radyushkin:2016hsy,Radyushkin:2017cyf} these pseudo-PDFs are related to the Ioffe time distributions. The key distinction between the quasi and pseudo PDF approaches is that in the latter the Fourier transform over all spatial separations is not, in practice, needed. Indeed, recent work has shown that there can be large finite-volume effects within the spatial integration~\cite{Briceno:2018lfj}. An observation from initial lattice calculations using the pseudo-PDF approach~\cite{Karpie:2018zaz,Karpie:2018zaz}  is that Ioffe-time distributions exhibits factorization down to small distances in the spatial separation, where the small distance behavior of the pseudo-PDF  satisfies a perturbative  evolution equation. Thus, rather than computing the entire PDF as a function of Bjorken-$x$, the PDF is parameterized as a function of the Bjorken-$x$, similar to approaches taken in phenomenological studies~\cite{Ball:2017nwa,Accardi:2016qay}. Larger lattice sizes with smaller lattice spacing will allow for better probes of the perturbative evolution scale, and better constraint of the small-$x$ region.
 %, which are Fourier transforms of the PDFs through a convolution 
 %\begin{equation}
 %{\mathcal M}(\nu,z^2) =\int_0^1 d\alpha C(\alpha,z^2\mu) {\cal Q}(\alpha x,\mu^2) +{ \cal O}(z^2)
@@ -163,9 +160,9 @@ This ratio is free of UV divergences and requires no renormalization. As shown i
 
 
 \subsubsection{Good lattice cross sections}
-Like extracting PDFs from QCD global fits of high energy scattering data, PDFs can also be extracted from analyzing ``data'' generated by lattice-QCD calculation of good {\it lattice cross sections} \cite{Ma:2014jla,Ma:2014jga}. A {\it lattice cross section} is defined as a single-hadron matrix element of a time-ordered, renormalized nonlocal operator ${\cal O}_n(z)$: ${\sigma}_{n}(\nu,z^2,p^2)=\langle p| {T}\{{\cal O}_n({z})\}|p\rangle$ with four-vector, $p$, $z$ and $\nu$ defined above and renormalization scale suppressed. The $p$ and $z$ and the choice of ${\cal O}_n$ determines the dynamical features of the lattice cross section. A useful lattice cross section should have the following three key properties: (1) calculable in LQCD in Euclidean time, (2) has a well-defined continuum limit as the lattice spacing $a\to 0$, and (3) has the same and factorizable logarithmic collinear divergences as that of PDFs, which connects the good lattice cross sections to PDFs, just like how high energy hadronic cross sections are related to PDFs in terms of QCD factorization.  
+Like extracting PDFs from QCD global fits of high energy scattering data, PDFs can also be extracted from analyzing ``data'' generated by lattice-QCD calculation of good {\it lattice cross sections} \cite{Ma:2014jla,Ma:2014jga}. A {\it lattice cross section} is defined in Refs.~\cite{ Ma:2014jla,Ma:2014jga}as a single-hadron matrix element of a time-ordered, renormalized nonlocal operator ${\cal O}_n(z)$: ${\sigma}_{n}(\nu,z^2,p^2)=\langle p| {T}\{{\cal O}_n({z})\}|p\rangle$ with four-vector, $p$, $z$ and $\nu$ defined above and renormalization scale suppressed. The $p$ and $z$ and the choice of ${\cal O}_n$ determines the dynamical features of the lattice cross section. A useful lattice cross section should have the following three key properties: (1) calculable in LQCD in Euclidean time, (2) has a well-defined continuum limit as the lattice spacing $a\to 0$, and (3) has the same and factorizable logarithmic collinear divergences as that of PDFs, which connects the good lattice cross sections to PDFs, just like how high energy hadronic cross sections are related to PDFs in terms of QCD factorization.  
 
-A class of {\it good} lattice cross sections was constructed in terms of a correlation of the product of two {\it renormalizable} currents.  There are many choices for the current, such as a vector quark current, or a tensor gluonic current~\cite{Ma:2017pxb}.  Different combinations of the two currents help enhance the lattice cross sections' flavor dependence.  If spatial separation between the currents is sufficiently small, the lattice cross section constructed from two renormalizable currents can be factorized into PDFs \cite{Ma:2017pxb},
+A class of {\it good} lattice cross sections was constructed in terms of a correlation of the product of two {\it renormalizable} currents (see also the following subsection).  There are many choices for the current, such as a vector quark current, or a tensor gluonic current~\cite{Ma:2017pxb}.  Different combinations of the two currents help enhance the lattice cross sections' flavor dependence.  If spatial separation between the currents is sufficiently small, the lattice cross section constructed from two renormalizable currents can be factorized into PDFs \cite{Ma:2017pxb},
 %\begin{equation}\label{eq:fac}
 %{\sigma}_{n}(\nu,z^2,p^2)=\sum_{a}\int_{-1}^1 \frac{dx}{x}\, f_{a}(x,\mu^2) 
 %K_{{n}}^{a}(x\nu,z^2,x^2p^2,\mu^2) +O(z^2\Lambda_{\rm QCD}^2)\, ,
@@ -192,14 +189,7 @@ That is, these two approaches for extracting PDFs are equivalent if matching coe
 %Keh-Fei, Schierholz,Detmold+Lin
 
 A variety of other approaches are also being investigated to access hadronic structure \cite{Liu:1993cv,Aglietti:1998mz,Detmold:2005gg,Liu:2016djw} based on computations of the hadronic tensor. In the first of these approaches \cite{Liu:1993cv,Liu:2016djw}, partonic physics is accessed through a discrete Laplace transform of the Euclidean hadronic tensor. Various implementations of the challenging inverse problem that is involved have been investigated in \cite{Liang:2017mye}. In the second approach, a fictitious heavy quark field is introduced and the corresponding hadronic tensor involving heavy-light currents and resulting lattice correlation functions are matched on to the relevant OPE to extract the moments of regular parton distributions. This approach requires very fine discretization scales, but first investigations are now beginning \cite{Detmold:2018kwu}. 
-
-
-Finally, the approach advocated by Davoudi and Savage \cite{Davoudi:2012ya} for restoration of rotational symmetry has been generalised to attack the 
-problem of high moments of PDFs through the construction of complicated lattice operators in which the Euclidean SO(4) symmetry is approximately restored thereby suppressing mixing with lower dimensional operators and avoiding that which is power divergent in the continuum limit. 
-
-Finally, the approach advocated by Davoudi and Savage for restoration of rotational symmetry has been generalized to attack the 
-problem of high moments of PDFs through the construction of complicated lattice operators in which the Euclidean SO(4) symmetry is approximately restored thereby suppressing mixing with lower dimensional operators and avoiding that which is power divergent in the continuum limit.
-
+An additonal approach nased on transofrms of the hadronic tensor is being pursued in Refs.~\cite{Chambers:2017dov}.
 
 \subsection{Generalized Parton Distribution Functions}
 
@@ -214,7 +204,8 @@ problem of high moments of PDFs through the construction of complicated lattice 
 Generalized parton distributions (GPDs) \cite{Ji:2001wha,Radyushkin:1997ki,Diehl:2003ny,Belitsky:2005qn} provide further insight into the quark and gluon structure of hadrons, combining parton dependence on longitudinal and transverse momentum. Information about GPDs is accessible from deeply virtual Compton scattering and deeply-virtual vector meson production in particular. Basic aspects of these distributions have been investigated at JLab, COMPASS and HERMES and a significant fraction of the experimental program at JLab12GeV is focused on revealing more  information about  GPDs. Lattice calculations have focused on the generalized form factors (GFFs) that parametrize off-forward matrix elements of local twist-two operators and correspond to moments of GPDs. 
 
 GPDs are defined as  off-forward matrix elements of the same operators that define parton distributions. For the unpolarised case
-GPDs also encode the spin decomposition of the proton through Ji's sum rule \cite{Ji:1996ek} that separates quark spin, orbital angular momentum and the total gluon angular momentum. A further decomposition valid in a particular gauge
+GPDs also encode the spin decomposition of the proton through Ji's sum rule \cite{Ji:1996ek} that separates quark spin, orbital angular momentum and the total gluon angular momentum. 
+A further decomposition valid in a particular gauge. The decomposition of the proton spin has rtecently been investigated in Refs.~\cite{Yang:2016plb,Alexandrou:2017oeh}
 
 The $n=2$ GFFs  parameterize the matrix elements of the energy momentum tensor. As well as determining the momentum distribution and spin, they 
 also define the pressure and shear distributions in the hadron.
