@@ -26,7 +26,8 @@ While these calculations, performed at heavier than physical quark masses, give 
 \label{spectrum}
 \end{figure}
 
-In order for a QCD calculation to be a faithful reflection the relevant physics, it must be capable of resolving excited hadrons as they truly are, as short-lived resonances, typically decaying to more than one final-state. This necessitates the computation of the energy-dependence of coupled-channel scattering amplitudes, in which the resonances will appear as enhancements. In the past five years, USQCD collaboration members have made significant progress in determining such amplitudes, making use of relations which connect them to the discrete spectrum of eigenstates of quantum field theory in a finite-volume, which can be computed in LQCD  \cite{Luscher:1986pf,Luscher:1990ck} {\color{red} ADD REFS HERE}.
+In order for a QCD calculation to be a faithful reflection the relevant physics, it must be capable of resolving excited hadrons as they truly are, as short-lived resonances, typically decaying to more than one final-state. This necessitates the computation of the energy-dependence of coupled-channel scattering amplitudes, in which the resonances will appear as enhancements. In the past five years, USQCD collaboration members have made significant progress in determining such amplitudes, making use of relations which connect them to the discrete spectrum of eigenstates of quantum field theory in a finite-volume, which can be computed in LQCD
+\cite{Luscher:1986pf, Luscher:1990ux, Rummukainen:1995vs, Feng:2004ua, He:2005ey, Bedaque:2004kc, Liu:2005kr, Kim:2005gf, Christ:2005gi, Lage:2009zv, Bernard:2010fp, Fu:2011xz, Leskovec:2012gb,  Briceno:2012yi, Hansen:2012tf, Guo:2012hv, Li:2012bi, Briceno:2013hya, Briceno:2014oea}.
 
 The simplest case is elastic scattering, where in a limited energy region only one hadron-hadron channel is kinematically open. Resonances appearing in elastic scattering include the $\rho$ and the $\sigma$ in $\pi\pi$ scattering, the $K^\star$ in $\pi K$, and the $\Delta$ in $\pi N$, all of which have been considered in LQCD
 %
@@ -52,7 +53,21 @@ Andersen:2017una}.
 %
 In the elastic case, the scattering amplitude can be described by a single real energy-dependent parameter, the phase-shift, which has a characteristic rise through $90^\circ$ if a narrow resonance is present. For elastic scattering, there is a simple one-to-one mapping of each discrete energy level in a finite-volume to a value of the elastic scattering phase-shift at that energy (neglecting higher partial waves) \cite{Luscher:1986pf,Luscher:1990ck}. It follows that the lattice calculation is required to have a robust determination of the discrete spectrum of eigenstates, ideally in several lattice volumes. Additionally, the use of moving frames \cite{Rummukainen:1995vs} and/or asymmetrical volumes\cite{Li:2003jn,Detmold:2004qn}, can give access to more energy values which can be used to map out the energy dependence of the phase-shift. To more reliably extract the complete spectrum of eigenstates it proves necessary to go beyond the kind of ``single-hadron-like'' operator basis used in the simplified  spectrum calculations described above, and to also include a set of operators which resemble the relevant hadron-hadron pair undergoing the scattering process.
 
-The LQCD technology of operator and correlation function construction has been developed to a state where these elastic scattering calculations are becoming a standard component of the USQCD program and are being pursued by other groups around the world \cite{Mohler:2012na} {\color{red} ADD REFS HERE}. Recent examples are presented in Fig~\ref{elastic} for the case of $\pi\pi$ scattering in $I=1$ and $I=0$, where the very different behavior of the $\rho$ resonance and the $\sigma$ can be observed. LQCD~\cite{Briceno:2016mjc} has shown for the first time in a first-principles approach to QCD, that the $\sigma$ meson evolves from being a broad resonance at light quark masses~\cite{Guo:2018zss}, into a stable bound-state below the $\pi\pi$ threshold. 
+The LQCD technology of operator and correlation function construction has been developed to a state where these elastic scattering calculations are becoming a standard component of the USQCD program and are being pursued by groups around the world
+\cite{
+Aoki:2007rd,
+Feng:2010es,
+Lang:2011mn,
+Aoki:2011yj,
+Dudek:2012xn,
+Pelissier:2012pi,
+Mohler:2012na, 
+Prelovsek:2013cra, 
+Lang:2014yfa,
+Bali:2015gji,
+Lang:2015sba,
+Lang:2016jpk,
+Bulava:2016mks}. Recent examples are presented in Fig~\ref{elastic} for the case of $\pi\pi$ scattering in $I=1$ and $I=0$, where the very different behavior of the $\rho$ resonance and the $\sigma$ can be observed. LQCD~\cite{Briceno:2016mjc} has shown for the first time in a first-principles approach to QCD, that the $\sigma$ meson evolves from being a broad resonance at light quark masses~\cite{Guo:2018zss}, into a stable bound-state below the $\pi\pi$ threshold. 
 
 \begin{figure}
 \includegraphics[width=0.44\textwidth]{figures/bulava}
@@ -73,7 +88,7 @@ This example illustrates the highly non-trivial dynamics that can arise in hadro
 
 %... also found a0(980) like state ... these scalar mesons long been a problem for simple pictures ... too much detail here ??
 
-A new generation of experiments are studying hadron spectroscopy using novel production mechanisms -- an example being the GlueX experiment at Jefferson Lab, which is producing meson resonances using a photon beam, with a particular focus being the search for exotic $J^{PC}$  mesons which may have an explanation as \emph{hybrids} featuring an excitation of the gluonic field. The anticipated huge data set from this experiment motivates study of the coupling of excited hadrons to photons, and in recent years we have seen the development of a formalism to extract the relevant amplitudes from finite-volume LQCD calculations \cite{} {\color{red} ADD REFS}. Indeed, the first explicit calculation \cite{Briceno:2015dca,Briceno:2016kkp} computed three-point vector current correlation functions corresponding to the quantum numbers of the process $\gamma^\star \pi \to \pi \pi$ with $J^P=1^-$, in which the $\rho$ resonance is expected to appear. The results of this first calculation at $m_\pi \sim 400$ MeV are presented in Fig.~\ref{rhopigamma} where the effect of the $\rho$ resonance in the electromagnetic transition amplitude can be clearly observed, and where the dependence on the virtuality of current can be used to determine the \emph{transition form-factor} of the unstable $\rho$ resonance (see also \cite{Alexandrou:2018jbt}). The formalism for the analysis of  $e^+ e^-$ annihilation to meson-meson final-states through a photon has also been applied to $\rho \to \pi\pi$ decays~\cite{Feng:2014gba}.
+A new generation of experiments are studying hadron spectroscopy using novel production mechanisms -- an example being the GlueX experiment at Jefferson Lab, which is producing meson resonances using a photon beam, with a particular focus being the search for exotic $J^{PC}$  mesons which may have an explanation as \emph{hybrids} featuring an excitation of the gluonic field. The anticipated huge data set from this experiment motivates study of the coupling of excited hadrons to photons, and in recent years we have seen the development of a formalism to extract the relevant amplitudes from finite-volume LQCD calculations \cite{Briceno:2014uqa,Briceno:2015csa,Briceno:2015tza}. Indeed, the first explicit calculation \cite{Briceno:2015dca,Briceno:2016kkp} computed three-point vector current correlation functions corresponding to the quantum numbers of the process $\gamma^\star \pi \to \pi \pi$ with $J^P=1^-$, in which the $\rho$ resonance is expected to appear. The results of this first calculation at $m_\pi \sim 400$ MeV are presented in Fig.~\ref{rhopigamma} where the effect of the $\rho$ resonance in the electromagnetic transition amplitude can be clearly observed, and where the dependence on the virtuality of current can be used to determine the \emph{transition form-factor} of the unstable $\rho$ resonance (see also \cite{Alexandrou:2018jbt}). The formalism for the analysis of  $e^+ e^-$ annihilation to meson-meson final-states through a photon has also been applied to $\rho \to \pi\pi$ decays~\cite{Feng:2014gba}.
 
  
 \begin{figure}
@@ -132,15 +147,7 @@ the accompanying whitepaper on quark and lepton flavor physics \cite{wphep}.
 %... charmonium radiative transitions - realistic for above-threshold states ? ... vector decay constants certainly needed ...
 %... anisotropic physical quark mass ensemble ... first calculations ... elastic resonances ($\rho, \sigma$, $\Delta$) and their couplings to electromagnetism ... 
 
-
-%As described in Section~\ref{sec:hadronstructure}, there are the opportunities to use the techniques developed for hadron to investigate 
-
-%{\it Hybrid mesons}
-{\color{red} MERGE THIS PARA BELOW}
-
-There is considerable experimental evidence for mesonic states that do not fit into a constituent quark model picture~\cite{Patrignani:2016xqp}; it is theorized that bound gluons (glueballs), or $q\overline{q}$-pairs bound with excited gluons (hybrids), may account for these observations. 
-As highlighted in the 2015 NSAC long-range plan~\cite{Geesaman:2015fha}, LQCD plays an essential role in guiding experiments designed to search for exotic states, including the flagship GlueX experimental program at JLab~\cite{Dobbs:2017vjw}. In addition to spectroscopic studies of the resonances in question 
-(see Sec.~\ref{sec:hadronspectroscopy}), LQCD studies of their three-dimensional gluon structure described by the gluon GPDs and TMDs may provide insight from QCD into details of the nature of exotic states. These calculations are extremely demanding computationally and will also require continued theoretical development.
+As described in Section~\ref{sec:hadronstructure}, there are opportunities to use the techniques developed for spectroscopic studies of resonances to investigate their three-dimensional gluon structure described by gluon GPDs and TMD. These quantities may provide insight from QCD into details of the nature of exotic states. These calculations are extremely demanding computationally and will also require continued theoretical development.
 
 
 
