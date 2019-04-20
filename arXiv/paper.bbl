@@ -195,9 +195,6 @@
   {http://arxiv.org/abs/1606.08812} {arXiv:1606.08812 [hep-lat]} \BibitemShut
   {NoStop}%
 %%CITATION = ARXIV:1606.08812;%%
-\bibitem [{wpf()}]{wpfund}%
-  \BibitemOpen
-  \href@noop {} {}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Capitani}\ \emph {et~al.}(2015)\citenamefont
   {Capitani}, \citenamefont {Della~Morte}, \citenamefont {Djukanovic},
   \citenamefont {von Hippel}, \citenamefont {Hua}, \citenamefont {Jäger},
@@ -303,9 +300,6 @@
   {2018}{\natexlab{a}})},\ \Eprint {http://arxiv.org/abs/1812.10311}
   {arXiv:1812.10311 [hep-lat]} \BibitemShut {NoStop}%
 %%CITATION = ARXIV:1812.10311;%%
-\bibitem [{wpn()}]{wpneutrino}%
-  \BibitemOpen
-  \href@noop {} {}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Lin}\ \emph {et~al.}(2018{\natexlab{a}})\citenamefont
   {Lin} \emph {et~al.}}]{Lin:2017snn}%
   \BibitemOpen
@@ -3960,6 +3954,9 @@
   {http://arxiv.org/abs/1508.05884} {arXiv:1508.05884 [hep-lat]} \BibitemShut
   {NoStop}%
 %%CITATION = ARXIV:1508.05884;%%
+\bibitem [{wpf()}]{wpfund}%
+  \BibitemOpen
+  \href@noop {} {}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Marrodán~Undagoitia}\ and\ \citenamefont
   {Rauch}(2016)}]{Undagoitia:2015gya}%
   \BibitemOpen
@@ -4036,6 +4033,9 @@
   {http://arxiv.org/abs/1710.02504} {arXiv:1710.02504 [physics.atom-ph]}
   \BibitemShut {NoStop}%
 %%CITATION = ARXIV:1710.02504;%%
+\bibitem [{wpn()}]{wpneutrino}%
+  \BibitemOpen
+  \href@noop {} {}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Hill}(2017)}]{Hill:2017wzi}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~J.}\ \bibnamefont
