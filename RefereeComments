@@ -1,0 +1,231 @@
+==================================================================
+Report on ms. EPJA-105335
+Authors: W. Detmold et al.
+Title: Hadrons and Nuclei
+
+The authors discuss the possibilities of using lattice QCD to investigate the
+structure of hadrons and nuclei from the perspective of the USQCD  
+collaboration. This white paper contains a large number of interesting
+topics and outlooks for future LQCD investigations. However, it falls
+short in discussing some relevant issues and at places, the discussions
+are rather simplified or even misleading. In addition, a number of relevant
+references are missing. In particular:
+
+o In Sec. 2.1, the computation of the proton charge radius is mentioned.
+ Just calculating the isovector radius is not sufficient, one also needs
+ to determine the isoscalar one. While this is much more challenging, it
+ needs at least to be mentioned.
+
+REPLY: As discussed, the isovector radius can be combined with the precise neturon charge radius to constrain the proton charge radius. We have added a sentence 'The full set of flavor separated contributions to the charge radius are also being determined by various groups, although with less precision than the isovector quantity.' at the end of the relevant paragraph
+
+
+o In the same section, the use of external field techniques and/or the
+ Feynman-Hellmann theorem to extract  polarisabilities and alike is
+ discussed. Some missing references are:
+
+ A.~J.~Chambers et al., PoS LATTICE {\bf 2015} (2016) 125
+ A.~Agadjanov, U.~G.~Meißner and A.~Rusetsky, Phys. Rev. D 95 (2017) 031502
+ A.~Agadjanov, U.~G.~Meißner and A.~Rusetsky, Phys. Rev. D 99 (2019) 054501
+
+
+REPLY: we have added these references
+
+
+o The discussion of the scalar mesons f0(980) and a0(980) is not up-to-date.
+ There exits model-independent methods based on Weinberg's compositeness
+ criterion that clearly indicate that these are molecules, see e.g.
+
+ V.~Baru et al., Phys. Lett. B 586 (2004) 53
+ F.~K.~Guo et al., Rev. Mod. Phys. 90 (2018)  015004
+
+REPLY:
+
+
+o The discussion of the spectrum before sec. 3.1 is also incomplete. There are
+ not only the XYZ states that challenge the conventional quark model, but
+ rather also the charm-strange mesons. Their properties can only be explained
+ in a molecular picture, see the review just mentioned. Further, COMPASS has
+ also shown clear evidence of non-conventional states, see
+ M.~Alekseev et al. [COMPASS Collaboration], Phys.Rev.Lett. 104 (2010) 241803
+
+REPLY:
+
+
+o In the discussion of the Luescher formalism and its extensions on page 9,
+ two important papers are missing:
+
+ M.~Lage, U.~G.~Meissner and A.~Rusetsky, Phys. Lett. B 681 (2009) 439
+ M.~Gockeler et al., Phys. Rev. D 86 (2012) 094513
+
+REPLY:
+
+
+
+o The discussion of the use of the coupled-channel S-matrix is not entirely
+ convincing. It is not sufficient to use a large number of K-matrix
+ parametrizations or alike to avoid potential bias. This is most clearly seen
+ in the beautiful anaylsis of M.~Albaladejo et al, Phys. Lett. B 767 (2017)
+ 465, which used unitarized chiral perturbation theory (UChPT) in a finite
+ volume to re-analyse the fine data from the HadSpec Collaboration, finding
+ two poles for the D_0^*(2400), where as HadSpec had only given one in their
+ JHEP paper. In general, UChPT needs to be mentioned in this context, one
+ early reference is M.~Doring et al., Eur. Phys. J. A {\bf 47} (2011) 139.
+
+
+REPLY:
+
+o In the discussion of methods to deal with form factors and transitions,
+ a few more references are in order, especially
+
+ V. Bernard et al., JHEP 1209 (2012) 023 
+ A. Agadjanov  et al.,  Nucl. Phys. B 886 (2014) 1199
+
+
+REPLY:
+
+
+
+o The final paragraph of stating on page 10 is also a bit optimistic. There
+ are to few resonances calculated in lattice QCD so far that one can really
+ avoid models. It is still a long way. In this context, under future
+ opportunities I miss completely the omega and phi mesons and the Roper
+ resonance. These should be the prime targets of lattice QCD in the years
+ to come if one really wants to claim that one is on the way of calculating
+ the spectrum!
+
+REPLY:
+
+o In the discussion of the formalism for three-hadrons states, important
+ references are missing:
+
+ H. W. Hammer et al., JHEP  1709 (2017)
+ H. W. Hammer et al., JHEP  1710 (2017)
+
+
+REPLY:
+
+
+o The discussion in the beginning of 3.2 do not reflect properly the
+ state-of-the-art. Charged Z-states must be tetraquarks or molecules,
+ they can not be conventional charmonium states. And to assign the
+ relevance of cusp structure to one US author [220] is utterly incorrect,
+ see e.g.
+
+ F.~K.~Guo et al., Phys. Rev. D {\bf 92} (2015) 071502
+ F.~K.~Guo,   PoS Hadron {\bf 2017} (2018) 015
+
+ and, of course, earlier work by Schmidt, Hoehler and others in the 1960ties!
+
+REPLY:
+
+
+
+o When it comes to nuclei in section 4, the whole discussion is rather
+ optimistic (or should I say: naive?). Lattice QCD is far from doing
+ any realistic calculation of even a light nucleus like 12C. So
+ one needs to look for alternatives. The authors discuss the matching
+ of heavy pion mass results to pionless EFT, which I consider not
+ the right path. May it as it is, the most precise nuclear structure
+ method is  undoubtedly NLEFT, which, however, would also require some
+ input for certain couplings from lattice QCD. This path should at
+ least be mentioned (if not followed).
+
+REPLY: We agree studying nuceli is ambitious, but there is reason for optimism.
+We have added a caveat to at the end of the following sentence: 'Larger nuclei also exhibit interesting collective effects such as halo structures (eg,  ${}^{6,8}$He), cluster structures (eg ${}^{8}$Be, ${}^{12}$C) and deformations that would be very instructive to see emerge from LQCD calculations, although significant algorithmic advances will be required to reach such systems.'
+
+We agree NLEFT is a promising approach that could also be matched on to LQCD calcualtions in light nuclei. We are not aware of any NLEFT works that do that so far. We have added a reference to a recent review:
+@article{Lahde:2019npb,
+	author         = "Lähde, Timo A. and Meißner, Ulf-G.",
+	title          = "{Nuclear Lattice Effective Field Theory}",
+	journal        = "Lect. Notes Phys.",
+	volume         = "957",
+	year           = "2019",
+	pages          = "1-396",
+	doi            = "10.1007/978-3-030-14189-9",
+	SLACcitation   = "%%CITATION = LNPHA,957,1;%%"
+}
+
+o On top of page 14, studies of meson systems are discussed. One important
+ paper is completely missed:
+
+ F.~Romero-López, A.~Rusetsky and C.~Urbach, Eur. Phys. J. C78 (2018) 846
+
+REPLY: While the reference is interesting, it is for phi^4 theory rather than QCD and we choose
+not to include it.
+
+
+o In the context of quark mass variations and the origin of carbon and
+ oxygen, the authors could quote the recent update based on NLEFT:
+
+ T.~A.~Lähde, U.~G.~Meißner and E.~Epelbaum, arXiv:1906.00607 [nucl-th].
+
+REPLY: We have added this reference, writing 'Effective field theory constrains on the effects of quark mass variation on nuclear spectroscopy have been recently summarised in Ref.~\cite{Lahde:2019yvr}.'
+
+
+o In the discussion of radiative capture on the and deuteron break-up by
+ low-energy photons, there are not only phenomenological models and
+ lattice QCD. Pionless and chiral EFT are the main players here for
+ precision calculations. This should be stated. In this context, assuming
+ that operators depend mildly on the quark masses (so as to go down
+ from mpi = 800 MEV to the physical value) has no basis in QCD, it is
+ just a guess (which might be wrong). Studies of two, three and four-nucleon
+ systems in chiral EFT rather seem to indicate the opposite, see the
+ famous paper E.~Braaten and H.~W.~Hammer, Phys. Rev. Lett. 91 (2003) 102002.
+
+REPLY:
+We have reformulated the appropriate sentence to more explicitly mention ChPT and pionless EFT: 'In nuclear potential models, such contributions are described by phenomenological meson-exchange currents, while in chiral perturbation theory and pionless effective field theory these enter as two-body contact operators.'
+We stand by the statement that LQCD has shown the two-body contact operator to have approximately the same value at two, albeit heavy, quark masses corresponding o mpi=800 and 450 MeV as discussed in the text. We agree that the matrix element as a whole has significant mass dependence, but not the short distance two-body operator. The sentence now reads: 'Noting the weak mass dependence of the tow-body contact operator, the results were extrapolated to the physical pion mass, allowing the rate of the low-energy inelastic process to be determined 
+at the physical point albeit with large uncertainties.'
+
+
+o In the end of sec. 4.3, precision calculations of double beta decay operators
+ are discussed. It should be mentioned that even though these can be
+ calculated to high precision, no nuclear structure method so far is able
+ to provide the corresponding matrix elements in a typical nucleus like Gd
+ with any kind of precision (may be NLEFT in a few years).
+
+REPLY: We have added the sentence - 'Achieving precision calculations in the large nuclei relevant for $0\nu\beta\beta$-decay experiments will also require significant developments in EFT and many-body methods.'
+
+
+
+o In section 5, the authors make two statements/references that 
+ completely misrepresent the history/developments. First, the claim
+ that ``there is a need to include dispersive methods in the analysis
+ of the factors...has been emphasized [305]". While the statement is
+ correct, the reference is utterly inappropriate. First, the need for a
+ dispersive treatment of the form factors to extract the proton and neutron
+ radii has been stressed since decades (!) by the Bonn group, see e.g.
+ M.~A.~Belushkin, H.-W.~Hammer and U.-G.~Meissner, Phys. Rev.C  75 (2007)
+ 035202, I.~T.~Lorenz, H.-W.~Hammer and U.~G.~Meissner, Eur. Phys. J. A 48
+ (2012) 151, I.~T.~Lorenz et al., Phys. Rev D  91 (2015) 014023 (just to
+ mention a few pertinent ones) and, second,  the spectral function in [305]
+ is even wrong by about a factor of two, see e.g. the most recent and precise
+ determination in  M.~Hoferichter et al.,  Eur. Phys. J. A  52 (2016) 331.
+ So this needs to be rewritten. Second, and may be even worse, it is stated
+ that the Hofstadter measurements in the mid 1950ties gave the
+ first experimental evidence for the composite structure of the proton.
+ That is WRONG! As one learns in quantum mechanics I, Otto Stern in 1933
+ at Hamburg measured the Landé factor of the proton and found a large
+ deviation from the Dirac theory. This was the first experimental evidence
+ (not in the US, I add) of the composite structure of the proton. This
+ needs to be corrected.
+
+REPLY:
+
+
+o Hadronic molecules are much more widespread than just for the XYZ states,
+ see e.g. the scalar mesons mentioned or the two poles of the Lambda(1405).
+ Here, again the Rev. Mod. Phys. by Guo et al. should be quoted.
+
+REPLY:
+
+
+o Finally, measuring energy levels of two- and three-nucleon systems to
+ constrain (pionless) EFT forces is simply not enough to enable lattice
+ QCD calculations of heavier nuclei as stated in 5.3. This needs some
+ rewriting.
+
+REPLY:
+
+In summary, the paper can be published once the authors have addressed
+these points.
