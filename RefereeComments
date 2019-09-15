@@ -38,7 +38,7 @@ o The discussion of the scalar mesons f0(980) and a0(980) is not up-to-date.
  V.~Baru et al., Phys. Lett. B 586 (2004) 53
  F.~K.~Guo et al., Rev. Mod. Phys. 90 (2018)  015004
 
-REPLY:
+REPLY: Citation added - mentioned below.
 
 
 o The discussion of the spectrum before sec. 3.1 is also incomplete. There are
@@ -48,7 +48,7 @@ o The discussion of the spectrum before sec. 3.1 is also incomplete. There are
  also shown clear evidence of non-conventional states, see
  M.~Alekseev et al. [COMPASS Collaboration], Phys.Rev.Lett. 104 (2010) 241803
 
-REPLY:
+REPLY: This section is not a comprehensive review of the field. The COMPASS results are described in the Lebed (2017) review. We have added a citation to the Guo paper mentioned above as it provides a review of different possible mechanisms in the heavy quark sector.
 
 
 o In the discussion of the Luescher formalism and its extensions on page 9,
@@ -57,7 +57,7 @@ o In the discussion of the Luescher formalism and its extensions on page 9,
  M.~Lage, U.~G.~Meissner and A.~Rusetsky, Phys. Lett. B 681 (2009) 439
  M.~Gockeler et al., Phys. Rev. D 86 (2012) 094513
 
-REPLY:
+REPLY: We added a citation to the Gockeler paper. The Lage paper was already cited in this section.
 
 
 
@@ -72,7 +72,7 @@ o The discussion of the use of the coupled-channel S-matrix is not entirely
  early reference is M.~Doring et al., Eur. Phys. J. A {\bf 47} (2011) 139.
 
 
-REPLY:
+REPLY: A discussion and references have been added.
 
 o In the discussion of methods to deal with form factors and transitions,
  a few more references are in order, especially
@@ -93,7 +93,7 @@ o The final paragraph of stating on page 10 is also a bit optimistic. There
  to come if one really wants to claim that one is on the way of calculating
  the spectrum!
 
-REPLY:
+REPLY: A discussion of baryons has been added.
 
 o In the discussion of the formalism for three-hadrons states, important
  references are missing:
@@ -102,7 +102,7 @@ o In the discussion of the formalism for three-hadrons states, important
  H. W. Hammer et al., JHEP  1710 (2017)
 
 
-REPLY:
+REPLY: These references have been added.
 
 
 o The discussion in the beginning of 3.2 do not reflect properly the
@@ -116,7 +116,7 @@ o The discussion in the beginning of 3.2 do not reflect properly the
 
  and, of course, earlier work by Schmidt, Hoehler and others in the 1960ties!
 
-REPLY:
+REPLY: The text already states that the system must have minimal four quark content. These are interesting references about pentaquarks, and yes these references discuss cusps, but the section is about how LQCD can inform us on the content of the XYZ-s. Discussion of pentaquarks is later in the section.
 
 
 
@@ -210,14 +210,16 @@ o In section 5, the authors make two statements/references that
  (not in the US, I add) of the composite structure of the proton. This
  needs to be corrected.
 
-REPLY:
+REPLY: We note that section 5, suggestively titled "Future Opportunities", highlights some particular class of calculations that USQCD members will pursue, and tries to give a notion of the computational complexity that is involved.
+
+The passing statement in Section 5.1 that there have been advances in nuclear science has been changed from "the last 70 years" to the "the last century". The reference there is to the muonic hydrogen measurements which has caused a flurry of activity. The focus of that subsection, though, is about what LQCD can do. References mentioned above have been added to provide some more context regarding dispersive methods.
 
 
 o Hadronic molecules are much more widespread than just for the XYZ states,
  see e.g. the scalar mesons mentioned or the two poles of the Lambda(1405).
  Here, again the Rev. Mod. Phys. by Guo et al. should be quoted.
 
-REPLY:
+REPLY: This section is describing a future opportunity to dissect the charmonium sector by trading off computational costs. The light quark mesons and baryons are described in Section 3.
 
 
 o Finally, measuring energy levels of two- and three-nucleon systems to
