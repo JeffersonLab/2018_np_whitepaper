@@ -130,10 +130,11 @@ o When it comes to nuclei in section 4, the whole discussion is rather
  input for certain couplings from lattice QCD. This path should at
  least be mentioned (if not followed).
 
-REPLY: We agree studying nuceli is ambitious, but there is reason for optimism.
+REPLY: We agree studying nuclei is ambitious, but there is reason for optimism.
 We have added a caveat to at the end of the following sentence: 'Larger nuclei also exhibit interesting collective effects such as halo structures (eg,  ${}^{6,8}$He), cluster structures (eg ${}^{8}$Be, ${}^{12}$C) and deformations that would be very instructive to see emerge from LQCD calculations, although significant algorithmic advances will be required to reach such systems.'
 
-We agree NLEFT is a promising approach that could also be matched on to LQCD calcualtions in light nuclei. We are not aware of any NLEFT works that do that so far. We have added a reference to a recent review:
+We agree NLEFT is a promising approach that could also be matched on to LQCD calculations in light nuclei. 
+We are not aware of any NLEFT works that do that so far. We have added a reference to a recent review:
 @article{Lahde:2019npb,
 	author         = "Lähde, Timo A. and Meißner, Ulf-G.",
 	title          = "{Nuclear Lattice Effective Field Theory}",
@@ -227,7 +228,7 @@ o Finally, measuring energy levels of two- and three-nucleon systems to
  QCD calculations of heavier nuclei as stated in 5.3. This needs some
  rewriting.
 
-REPLY:
+REPLY: Our intent was not to single out pionless EFT. Perhaps the reference w included (which is a pioness EFT calculation) gave taht impression. We have removed it and reworded the sentence a little to make clear that there is also more to do on the EFT side.. It now reads: 'Determinations of the finite-volume energy levels of few nucleon systems with physical quark masses will constrain the two- and three- nucleon forces in EFT methods, and, with concomitant developments in many-body methods based on EFTs, will enable predictions of the properties and interactions of larger nuclei. /
 
 In summary, the paper can be published once the authors have addressed
 these points.
