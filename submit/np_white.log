@@ -1,0 +1,1064 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/MacPorts 2018.47642_8) (preloaded format=pdflatex 2018.8.29)  17 OCT 2019 08:35
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**np_white.tex
+(./np_white.tex
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 46 language(s) loaded.
+
+LaTeX Warning: File `leer.eps' already exists on the system.
+               Not generating it from this source.
+
+(./svjour.cls
+Document Class: svjour 2003/04/15 
+LaTeX document class for Springer journals - version 1.11
+(./svepj.clo
+File: svepj.clo 2002/03/11 v1.2 style option for The European Physical Journal
+
+SVJour Class option: svepj.clo for The European Physical Journal
+)
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 99.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 101.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 102.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 105.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 106.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 107.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 108.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 109.
+\logodepth=\dimen102
+\headerboxheight=\dimen103
+\betweenumberspace=\dimen104
+\aftertext=\dimen105
+\headlineindent=\dimen106
+\c@inst=\count80
+\c@auth=\count81
+\instindent=\dimen107
+\authrun=\box26
+\authorrunning=\toks14
+\titrun=\box27
+\titlerunning=\toks15
+\combirun=\box28
+\c@lastpage=\count82
+\c@section=\count83
+\c@subsection=\count84
+\c@subsubsection=\count85
+\c@paragraph=\count86
+\c@subparagraph=\count87
+\spthmsep=\dimen108
+\c@theorem=\count88
+\c@case=\count89
+\c@conjecture=\count90
+\c@corollary=\count91
+\c@definition=\count92
+\c@example=\count93
+\c@exercise=\count94
+\c@lemma=\count95
+\c@note=\count96
+\c@problem=\count97
+\c@property=\count98
+\c@proposition=\count99
+\c@question=\count100
+\c@solution=\count101
+\c@remark=\count102
+\c@figure=\count103
+\c@table=\count104
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\figcapgap=\dimen109
+\tabcapgap=\dimen110
+\figgap=\dimen111
+\bibindent=\dimen112
+\@tempcntc=\count105
+) (/opt/local/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks16
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/opt/local/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/opt/local/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/opt/local/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen113
+))
+(/opt/local/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen114
+)
+(/opt/local/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count106
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count107
+\leftroot@=\count108
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count109
+\DOTSCASE@=\count110
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box29
+\strutbox@=\box30
+\big@size=\dimen115
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+
+
+Package amsmath Warning: Unable to redefine math accent \vec.
+
+\macc@depth=\count111
+\c@MaxMatrixCols=\count112
+\dotsspace@=\muskip10
+\c@parentequation=\count113
+\dspbrk@lvl=\count114
+\tag@help=\toks18
+\row@=\count115
+\column@=\count116
+\maxfields@=\count117
+\andhelp@=\toks19
+\eqnshift@=\dimen116
+\alignsep@=\dimen117
+\tagshift@=\dimen118
+\tagwidth@=\dimen119
+\totwidth@=\dimen120
+\lineht@=\dimen121
+\@envbody=\toks20
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+) (/opt/local/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/opt/local/share/texmf-texlive/tex/latex/tools/bm.sty
+Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 207.
+)
+(/opt/local/share/texmf-texlive/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(/opt/local/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/opt/local/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks22
+)
+(/opt/local/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/opt/local/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/opt/local/share/texmf-texlive/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/opt/local/share/texmf-texlive/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen122
+\Gin@req@width=\dimen123
+)
+(/opt/local/share/texmf-texlive/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/opt/local/share/texmf-texlive/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+(/opt/local/share/texmf-texlive/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/opt/local/share/texmf-texlive/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/opt/local/share/texmf-texlive/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/opt/local/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen124
+\Hy@linkcounter=\count118
+\Hy@pagecounter=\count119
+
+(/opt/local/share/texmf-texlive/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count120
+
+(/opt/local/share/texmf-texlive/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4383.
+Package hyperref Info: Option `plainpages' set `false' on input line 4383.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count121
+
+(/opt/local/share/texmf-texlive/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5115.
+\XeTeXLinkMargin=\dimen125
+\Fld@menulength=\count122
+\Field@Width=\dimen126
+\Fld@charsize=\dimen127
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring ON on input line 6387.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count123
+\c@Item=\count124
+\c@Hfootnote=\count125
+)
+Package hyperref Info: Driver: hpdftex.
+
+(/opt/local/share/texmf-texlive/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count126
+\c@bookmark@seq@number=\count127
+
+(/opt/local/share/texmf-texlive/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip46
+)
+(/opt/local/share/texmf-texlive/tex/latex/sidecap/sidecap.sty
+Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
+
+(/opt/local/share/texmf-texlive/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\SC@BOXWD=\dimen128
+\SC@CAPWD=\dimen129
+\SC@tempdima=\dimen130
+\SC@tempdimb=\dimen131
+\c@SC@C=\count128
+\SC@BOX=\box31
+)
+(/opt/local/share/texmf-texlive/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen132
+\WF@size=\dimen133
+\c@WF@wrappedlines=\count129
+\WF@box=\box32
+\WF@everypar=\toks23
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/opt/local/share/texmf-texlive/tex/latex/base/inputenc.sty
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks24
+\inpenc@posthook=\toks25
+) (./np_white.aux)
+\openout1 = `np_white.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+
+(/opt/local/share/texmf-texlive/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count130
+\scratchdimen=\dimen134
+\scratchbox=\box33
+\nofMPsegments=\count131
+\nofMParguments=\count132
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count133
+\MPscratchDim=\dimen135
+\MPnumerator=\count134
+\makeMPintoPDFobject=\count135
+\everyMPtoPDFconversion=\toks27
+) (/opt/local/share/texmf-texlive/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/opt/local/share/texmf-texlive/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/opt/local/share/texmf-texlive/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box34
+Package hyperref Info: Link coloring ON on input line 39.
+
+(/opt/local/share/texmf-texlive/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count136
+)
+LaTeX Info: Redefining \ref on input line 39.
+LaTeX Info: Redefining \pageref on input line 39.
+LaTeX Info: Redefining \nameref on input line 39.
+
+(./np_white.out) (./np_white.out)
+\@outlinefile=\write3
+\openout3 = `np_white.out'.
+
+
+(/opt/local/share/texmf-texlive/tex/latex/ms/ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+(/opt/local/share/texmf-texlive/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 126.
+)
+\CenteringLeftskip=\skip47
+\RaggedLeftLeftskip=\skip48
+\RaggedRightLeftskip=\skip49
+\CenteringRightskip=\skip50
+\RaggedLeftRightskip=\skip51
+\RaggedRightRightskip=\skip52
+\CenteringParfillskip=\skip53
+\RaggedLeftParfillskip=\skip54
+\RaggedRightParfillskip=\skip55
+\JustifyingParfillskip=\skip56
+\CenteringParindent=\skip57
+\RaggedLeftParindent=\skip58
+\RaggedRightParindent=\skip59
+\JustifyingParindent=\skip60
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 70.
+
+(/opt/local/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 70.
+
+(/opt/local/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
+ 
+ []
+
+(./executive.tex [1{/opt/local/var/db/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]) (./intro.tex
+Overfull \hbox (7.43884pt too wide) in paragraph at lines 1--6
+\OT1/cmr/m/n/10 lat-tice QCD (LQCD) to cal-cu-la-tions of the non-perturbative
+ []
+
+) (./hadstruct.tex
+Overfull \hbox (1.19672pt too wide) in paragraph at lines 14--15
+\OT1/cmr/m/n/10 tity that is known very pre-cisely from ex-per-i-ment, $\OML/cm
+m/m/it/10 g[] \OT1/cmr/m/n/10 =
+ []
+
+[2]
+Overfull \hbox (2.07877pt too wide) in paragraph at lines 47--56
+\OT1/cmr/m/n/10 The for-mu-la-tion of lat-tice QCD in Eu-clidean space severely
+
+ []
+
+<figures/LP3-PDF-CT14.pdf, id=90, 451.6875pt x 316.18124pt>
+File: figures/LP3-PDF-CT14.pdf Graphic file (type pdf)
+<use figures/LP3-PDF-CT14.pdf>
+Package pdftex.def Info: figures/LP3-PDF-CT14.pdf  used on input line 59.
+(pdftex.def)             Requested size: 237.7932pt x 166.45596pt.
+<figures/a09m130-helicity-comp.pdf, id=91, 252.945pt x 168.63pt>
+File: figures/a09m130-helicity-comp.pdf Graphic file (type pdf)
+<use figures/a09m130-helicity-comp.pdf>
+Package pdftex.def Info: figures/a09m130-helicity-comp.pdf  used on input line 
+60.
+(pdftex.def)             Requested size: 237.7932pt x 158.53279pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./figures/LP3-PDF-CT14.pdf> <./figures/a09m130-helicity-comp.pdf
+
+pdfTeX warning: /opt/local/bin/pdflatex (file ./figures/a09m130-helicity-comp.p
+df): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+Overfull \hbox (10.0244pt too wide) in paragraph at lines 88--89
+\OT1/cmr/m/n/10 fur-ther in-sight into the quark and gluon struc-ture of hadron
+s,
+ []
+
+
+Overfull \hbox (2.2466pt too wide) in paragraph at lines 102--114
+\OT1/cmr/m/n/10 Transverse momentum-dependent par-ton dis-tri-bu-tions [[][]96[
+][]]
+ []
+
+
+Overfull \hbox (12.01047pt too wide) in paragraph at lines 102--114
+\OT1/cmr/m/n/10 GPDs, they per-mit a com-pre-hen-sive re-con-struc-tion of hadr
+on
+ []
+
+<figures/m020_run38_UminusD_Sivers_lsqr-9_zetasqrlat4.pdf, id=248, 271.0125pt x
+ 167.62625pt>
+File: figures/m020_run38_UminusD_Sivers_lsqr-9_zetasqrlat4.pdf Graphic file (ty
+pe pdf)
+<use figures/m020_run38_UminusD_Sivers_lsqr-9_zetasqrlat4.pdf>
+Package pdftex.def Info: figures/m020_run38_UminusD_Sivers_lsqr-9_zetasqrlat4.p
+df  used on input line 134.
+(pdftex.def)             Requested size: 237.7932pt x 147.0844pt.
+<figures/new_bm_u_sidis_b0p36_vszetahat_extrap_pow1.pdf, id=249, 301.125pt x 19
+6.24115pt>
+File: figures/new_bm_u_sidis_b0p36_vszetahat_extrap_pow1.pdf Graphic file (type
+ pdf)
+<use figures/new_bm_u_sidis_b0p36_vszetahat_extrap_pow1.pdf>
+Package pdftex.def Info: figures/new_bm_u_sidis_b0p36_vszetahat_extrap_pow1.pdf
+  used on input line 135.
+(pdftex.def)             Requested size: 237.7932pt x 154.97488pt.
+
+Overfull \hbox (1.74657pt too wide) in paragraph at lines 147--159
+\OT1/cmr/m/n/10 links was per-formed in [[][]109[][]], ob-tain-ing re-sults on 
+the Sivers
+ []
+
+[5]
+Underfull \vbox (badness 4048) has occurred while \output is active []
+
+
+Overfull \hbox (0.93991pt too wide) in paragraph at lines 232--244
+\OT1/cmr/m/n/10 tice TMD cal-cu-la-tions, the in-cor-po-ra-tion of fur-ther phy
+sics
+ []
+
+[6 <./figures/m020_run38_UminusD_Sivers_lsqr-9_zetasqrlat4.pdf> <./figures/new_
+bm_u_sidis_b0p36_vszetahat_extrap_pow1.pdf>]
+Overfull \hbox (0.96886pt too wide) in paragraph at lines 263--270
+\OT1/cmr/m/n/10 [[][]132[][]], a sig-nif-i-cantly im-proved con-straint on the 
+to-tal gluon
+ []
+
+<figures/combinedpressurelattnew.pdf, id=418, 226.28406pt x 140.71722pt>
+File: figures/combinedpressurelattnew.pdf Graphic file (type pdf)
+<use figures/combinedpressurelattnew.pdf>
+Package pdftex.def Info: figures/combinedpressurelattnew.pdf  used on input lin
+e 273.
+(pdftex.def)             Requested size: 237.7932pt x 147.87553pt.
+
+Overfull \hbox (4.02432pt too wide) in paragraph at lines 282--286
+[]\OT1/cmr/m/n/10 Exascale com-put-ing re-sources and con-cur-rent al-go-rithm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--286
+
+ []
+
+
+Underfull \vbox (badness 1112) has occurred while \output is active []
+
+ [7 <./figures/combinedpressurelattnew.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 288--293
+
+ []
+
+) (./hadspec.tex
+Overfull \hbox (8.6621pt too wide) in paragraph at lines 15--16
+[]\OT1/cmr/m/n/10 Earlier LQCD cal-cu-la-tions con-sid-ered the ex-cited hadron
+
+ []
+
+[8]
+<figures/isoscalar.pdf, id=511, 1097.85156pt x 556.24512pt>
+File: figures/isoscalar.pdf Graphic file (type pdf)
+<use figures/isoscalar.pdf>
+Package pdftex.def Info: figures/isoscalar.pdf  used on input line 20.
+(pdftex.def)             Requested size: 450.5625pt x 228.28264pt.
+
+Overfull \hbox (6.32985pt too wide) in paragraph at lines 25--27
+\OT1/cmr/m/n/10 This ne-ces-si-tates the com-pu-ta-tion of the energy-dependenc
+e
+ []
+
+
+Overfull \hbox (2.85657pt too wide) in paragraph at lines 32--33
+[]\OT1/cmr/m/n/10 The LQCD tech-nol-ogy of op-er-a-tor and cor-re-la-tion func-
+
+ []
+
+<figures/bulava.pdf, id=534, 543.2305pt x 374.47806pt>
+File: figures/bulava.pdf Graphic file (type pdf)
+<use figures/bulava.pdf>
+Package pdftex.def Info: figures/bulava.pdf  used on input line 35.
+(pdftex.def)             Requested size: 225.28125pt x 155.29692pt.
+<figures/sigma.pdf, id=535, 363.3575pt x 231.86626pt>
+File: figures/sigma.pdf Graphic file (type pdf)
+<use figures/sigma.pdf>
+Package pdftex.def Info: figures/sigma.pdf  used on input line 36.
+(pdftex.def)             Requested size: 245.75781pt x 156.82845pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--37
+[][]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (9.57996pt too wide) in paragraph at lines 44--50
+\OT1/cmr/m/n/10 nance prop-er-ties by an-a-lyt-i-cally con-tin-u-ing the parame
+trized
+ []
+
+
+Overfull \hbox (0.191pt too wide) in paragraph at lines 44--50
+\OT1/cmr/m/n/10 am-pli-tudes into the com-plex en-ergy plane, with res-o-nances
+
+ []
+
+<figures/f0f2.pdf, id=551, 442.19504pt x 162.91364pt>
+File: figures/f0f2.pdf Graphic file (type pdf)
+<use figures/f0f2.pdf>
+Package pdftex.def Info: figures/f0f2.pdf  used on input line 55.
+(pdftex.def)             Requested size: 486.39844pt x 179.20056pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+Underfull \vbox (badness 1629) has occurred while \output is active []
+
+ [10 <./figures/isoscalar.pdf> <./figures/bulava.pdf> <./figures/sigma.pdf
+
+pdfTeX warning: /opt/local/bin/pdflatex (file ./figures/sigma.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+>]
+<figures/rho_pi_gamma.pdf, id=1164, 643.44492pt x 430.71315pt>
+File: figures/rho_pi_gamma.pdf Graphic file (type pdf)
+<use figures/rho_pi_gamma.pdf>
+Package pdftex.def Info: figures/rho_pi_gamma.pdf  used on input line 66.
+(pdftex.def)             Requested size: 237.7932pt x 159.17078pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11 <./figures/f0f2.pdf> <./figures/rho_pi_gamma.pdf
+
+pdfTeX warning: /opt/local/bin/pdflatex (file ./figures/rho_pi_gamma.pdf): PDF 
+inclusion: multiple pdfs with page group included in a single page
+>]
+Overfull \hbox (1.21873pt too wide) in paragraph at lines 80--82
+\OT1/cmr/m/n/10 quark masses, in the short-term, some cal-cu-la-tions at heav-
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (7.35774pt too wide) in paragraph at lines 85--87
+\OT1/cmr/m/n/10 ex-per-i-ment that hint at physics be-yond the Stan-dard Model,
+
+ []
+
+
+Overfull \hbox (1.87148pt too wide) in paragraph at lines 88--89
+\OT1/cmr/m/n/10 struc-ture de-scribed by gluon GPDs and TMD. These quan-
+ []
+
+[12]
+Overfull \hbox (1.05095pt too wide) in paragraph at lines 100--101
+[]\OT1/cmr/m/n/10 Within the charm sec-tor, the LQCD meth-ods de-scribed
+ []
+
+
+Overfull \hbox (4.46762pt too wide) in paragraph at lines 109--111
+[]\OT1/cmr/m/n/10 While the first LQCD stud-ies sug-gest that dou-ble charm
+ []
+
+
+Overfull \hbox (7.96883pt too wide) in paragraph at lines 112--118
+[]\OT1/cmr/m/n/10 The spec-trum and dy-nam-ics of hadrons con-tain-ing heavy
+ []
+
+) (./nuclear.tex [13]
+Overfull \hbox (0.49655pt too wide) in paragraph at lines 13--19
+\OT1/cmr/m/n/10 front these is-sues (Ref. [[][]298[][]] high-lights just how fo
+rmidable
+ []
+
+
+Overfull \hbox (4.46758pt too wide) in paragraph at lines 13--19
+\OT1/cmr/m/n/10 this chal-lenge is). A sec-ond chal-lenge arises from the Monte
+-
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14]
+<figures/MagMoms.pdf, id=1380, 734.745pt x 402.50375pt>
+File: figures/MagMoms.pdf Graphic file (type pdf)
+<use figures/MagMoms.pdf>
+Package pdftex.def Info: figures/MagMoms.pdf  used on input line 40.
+(pdftex.def)             Requested size: 237.7932pt x 130.26555pt.
+<figures/PhysPols.pdf, id=1381, 570.13pt x 365.365pt>
+File: figures/PhysPols.pdf Graphic file (type pdf)
+<use figures/PhysPols.pdf>
+Package pdftex.def Info: figures/PhysPols.pdf  used on input line 41.
+(pdftex.def)             Requested size: 237.7932pt x 152.38742pt.
+<figures/RatioSummary.pdf, id=1386, 401.5pt x 682.55pt>
+File: figures/RatioSummary.pdf Graphic file (type pdf)
+<use figures/RatioSummary.pdf>
+Package pdftex.def Info: figures/RatioSummary.pdf  used on input line 53.
+(pdftex.def)             Requested size: 237.7932pt x 404.25282pt.
+
+Overfull \hbox (4.30206pt too wide) in paragraph at lines 72--73
+[]\OT1/cmr/m/n/10 Calculations of elec-troweak in-ter-ac-tions with nu-clei tha
+t
+ []
+
+[15 <./figures/MagMoms.pdf> <./figures/PhysPols.pdf>] [16 <./figures/RatioSumma
+ry.pdf>]
+<figures/npTOdgamma.png, id=1507, 761.84625pt x 552.0625pt>
+File: figures/npTOdgamma.png Graphic file (type png)
+<use figures/npTOdgamma.png>
+Package pdftex.def Info: figures/npTOdgamma.png  used on input line 90.
+(pdftex.def)             Requested size: 237.7932pt x 172.3085pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17 <./figures/npTOdgamma.png>]) (./future.tex
+Overfull \hbox (9.46883pt too wide) in paragraph at lines 4--6
+\OT1/cmr/m/n/10 Understanding the struc-ture of the pro-ton and other hadrons
+ []
+
+
+Overfull \hbox (12.31314pt too wide) in paragraph at lines 9--17
+[]\OT1/cmr/m/n/10 The nu-cleon elec-tric and mag-netic form fac-tors $\OML/cmm/
+m/it/10 G[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Q[]\OT1/cmr/m/n/10 )$
+ []
+
+
+Overfull \hbox (0.55208pt too wide) in paragraph at lines 25--26
+\OT1/cmr/m/n/10 and nu-clear physics cal-cu-la-tions. In par-tic-u-lar, these m
+eth-
+ []
+
+
+Overfull \hbox (1.27435pt too wide) in paragraph at lines 31--32
+\OT1/cmr/m/n/10 While these cal-cu-la-tions must be mind-ful of po-ten-tial thr
+ee
+ []
+
+
+Overfull \hbox (3.49652pt too wide) in paragraph at lines 31--32
+\OT1/cmr/m/n/10 us-ing re-sources avail-able on lead-er-ship com-put-ing re-sou
+rces
+ []
+
+[18]
+Overfull \hbox (6.21878pt too wide) in paragraph at lines 39--40
+[]\OT1/cmr/m/n/10 Beyond re-pro-duc-ing ex-per-i-men-tally ac-ces-si-ble re-ac-
+tions,
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (1.57997pt too wide) in paragraph at lines 49--50
+\OT1/cmr/m/n/10 method [[][]383[][]], im-proved es-ti-ma-tors [[][]307[][]], al
+ong with signal-
+ []
+
+) [19] (./np_white.bbl
+Underfull \hbox (badness 2521) in paragraph at lines 40--41
+[]\OT1/cmr/m/n/9 B. Yoon et al., Phys. Rev. \OT1/cmr/bx/n/9 D95\OT1/cmr/m/n/9 ,
+ 074508 (2017),
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 46--48
+\OT1/cmr/m/n/9 T. Bhat-tacharya, Phys. Rev. \OT1/cmr/bx/n/9 D98\OT1/cmr/m/n/9 ,
+ 034503 (2018),
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 76--78
+[]\OT1/cmr/m/n/9 W. Det-mold, A. Grebe, P. Shana-han, PoS \OT1/cmr/bx/n/9 LAT-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
+[]\OT1/cmr/m/n/9 Z. Davoudi, PoS \OT1/cmr/bx/n/9 LAT-TICE2018\OT1/cmr/m/n/9 , 0
+14 (2018),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--175
+\OT1/cmr/m/n/9 A. Vladikas, Nucl. Phys. \OT1/cmr/bx/n/9 B445\OT1/cmr/m/n/9 , 81
+ (1995),
+ []
+
+[20]
+Underfull \hbox (badness 8151) in paragraph at lines 205--206
+[]\OT1/cmr/m/n/9 A. Radyushkin, Phys. Lett. \OT1/cmr/bx/n/9 B767\OT1/cmr/m/n/9 
+, 314 (2017),
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 208--209
+[]\OT1/cmr/m/n/9 A.V. Radyushkin, Phys. Rev. \OT1/cmr/bx/n/9 D96\OT1/cmr/m/n/9 
+, 034025 (2017),
+ []
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 281--283
+[]\OT1/cmr/m/n/9 W. Det-mold, I. Kanamori, C.J.D. Lin, S. Mon-dal,
+ []
+
+
+Underfull \hbox (badness 4144) in paragraph at lines 294--295
+[]\OT1/cmr/m/n/9 A.V. Radyushkin, Phys. Rev. \OT1/cmr/bx/n/9 D56\OT1/cmr/m/n/9 
+, 5524 (1997),
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 355--357
+[]\OT1/cmr/m/n/9 D. Brom-mel et al. (QCDSF-UKQCD), PoS \OT1/cmr/bx/n/9 LAT-
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 369--370
+[]\OT1/cmr/m/n/9 M. Deka et al., Phys. Rev. \OT1/cmr/bx/n/9 D91\OT1/cmr/m/n/9 ,
+ 014505 (2015),
+ []
+
+[21]
+Underfull \hbox (badness 4132) in paragraph at lines 428--430
+[]\OT1/cmr/m/n/9 M. En-gel-hardt, P. H^^?agler, B. Musch, J. Negele,
+ []
+
+
+Underfull \hbox (badness 4886) in paragraph at lines 441--442
+[]\OT1/cmr/m/n/9 M. En-gel-hardt, Phys. Rev. \OT1/cmr/bx/n/9 D95\OT1/cmr/m/n/9 
+, 094505 (2017),
+ []
+
+
+Underfull \hbox (badness 4303) in paragraph at lines 453--454
+[]\OT1/cmr/m/n/9 A. Stathopou-los, J. Laeuchli, K. Orginos (2013),
+ []
+
+
+Underfull \hbox (badness 1831) in paragraph at lines 480--481
+[]\OT1/cmr/m/n/9 S. Dobbs (GlueX), PoS \OT1/cmr/bx/n/9 Hadron2017\OT1/cmr/m/n/9
+ , 047 (2018),
+ []
+
+
+Underfull \hbox (badness 2744) in paragraph at lines 486--488
+\OT1/cmr/m/n/9 (2016), [Er-ra-tum: Phys. Rev.D95,no.7,079902(2017)],
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 507--509
+\OT1/cmr/m/n/9 B. Kostrzewa, C. Wiese, PoS \OT1/cmr/bx/n/9 LAT-TICE2013\OT1/cmr
+/m/n/9 , 289
+ []
+
+
+Underfull \hbox (badness 3068) in paragraph at lines 561--563
+[]\OT1/cmr/m/n/9 F.K. Guo, C. Han-hart, U.G. Mei^^Yner, Q. Wang,
+ []
+
+
+Underfull \hbox (badness 2229) in paragraph at lines 576--577
+[]\OT1/cmr/m/n/9 R. Hors-ley et al., J. Phys. \OT1/cmr/bx/n/9 G43\OT1/cmr/m/n/9
+ , 10LT02 (2016),
+ []
+
+
+Underfull \hbox (badness 3098) in paragraph at lines 625--626
+[]\OT1/cmr/m/n/9 S. He, X. Feng, C. Liu, JHEP \OT1/cmr/bx/n/9 07\OT1/cmr/m/n/9 
+, 011 (2005),
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 628--629
+[]\OT1/cmr/m/n/9 P.F. Be-daque, Phys. Lett. \OT1/cmr/bx/n/9 B593\OT1/cmr/m/n/9 
+, 82 (2004),
+ []
+
+
+Underfull \hbox (badness 2707) in paragraph at lines 693--695
+[]\OT1/cmr/m/n/9 C.B. Lang, D. Mohler, S. Prelovsek, M. Vid-mar,
+ []
+
+
+Underfull \hbox (badness 3514) in paragraph at lines 693--695
+\OT1/cmr/m/n/9 Phys. Rev. \OT1/cmr/bx/n/9 D84\OT1/cmr/m/n/9 , 054503 (2011), [E
+r-ra-tum: Phys.
+ []
+
+
+Underfull \hbox (badness 2197) in paragraph at lines 709--711
+[]\OT1/cmr/m/n/9 D.J. Wil-son, R.A. Brice~no, J.J. Dudek, R.G. Ed-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 744--746
+\OT1/cmr/m/n/9 C. Morn-ingstar, Nucl. Phys. \OT1/cmr/bx/n/9 B932\OT1/cmr/m/n/9 
+, 29 (2018),
+ []
+
+
+Underfull \hbox (badness 5985) in paragraph at lines 755--756
+[]\OT1/cmr/m/n/9 X. Li, C. Liu, Phys. Lett. \OT1/cmr/bx/n/9 B587\OT1/cmr/m/n/9 
+, 100 (2004),
+ []
+
+
+Underfull \hbox (badness 2318) in paragraph at lines 859--862
+[]\OT1/cmr/m/n/9 M. Pear-don, J. Bulava, J. Fo-ley, C. Morn-ingstar,
+ []
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 859--862
+\OT1/cmr/m/n/9 J. Dudek, R.G. Ed-wards, B. Joo, H.W. Lin, D.G.
+ []
+
+[23]
+Underfull \hbox (badness 4859) in paragraph at lines 864--866
+[]\OT1/cmr/m/n/9 C. Morn-ingstar, J. Bulava, J. Fo-ley, K.J. Juge,
+ []
+
+
+Underfull \hbox (badness 3919) in paragraph at lines 915--916
+[]\OT1/cmr/m/n/9 A.P. Szczepa-niak, Phys. Lett. \OT1/cmr/bx/n/9 B747\OT1/cmr/m/
+n/9 , 410 (2015),
+ []
+
+
+Underfull \hbox (badness 3281) in paragraph at lines 1030--1031
+[]\OT1/cmr/m/n/9 R.M. Woloshyn, Eur. Phys. J. \OT1/cmr/bx/n/9 A52\OT1/cmr/m/n/9
+ , 273 (2016),
+ []
+
+[24]
+Underfull \hbox (badness 1715) in paragraph at lines 1120--1122
+[]\OT1/cmr/m/n/9 A. Fran-cis, J.R. Green, P.M. Jun-narkar, C. Miao,
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 1243--1245
+[]\OT1/cmr/m/n/9 K. Orginos, A. Par-reno, M.J. Sav-age, S.R. Beane,
+ []
+
+
+Underfull \hbox (badness 2653) in paragraph at lines 1286--1289
+[]\OT1/cmr/m/n/9 S.R. Beane, E. Chang, W. Det-mold, K. Orginos,
+ []
+
+[25]
+Underfull \hbox (badness 1048) in paragraph at lines 1352--1364
+\OT1/cmr/m/n/9 IN-TE-GRAL, Ice-Cube, As-troSat Cad-mium Zinc Tel-
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 1352--1364
+\OT1/cmr/m/n/9 ASKAP, Las Cum-bres Ob-ser-va-tory Group, Oz-Grav,
+ []
+
+
+Underfull \hbox (badness 2376) in paragraph at lines 1352--1364
+\OT1/cmr/m/n/9 TRO, VIN-ROUGE, MAS-TER, J-GEM, GROWTH,
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 1352--1364
+\OT1/cmr/m/n/9 Op-ti-cal Tele-scope, ePESSTO, GROND, Texas Tech
+ []
+
+
+Underfull \hbox (badness 2293) in paragraph at lines 1366--1368
+[]\OT1/cmr/m/n/9 F. Ozel, D. Psaltis, Z. Ar-zou-ma-nian, S. Morsink,
+ []
+
+
+Underfull \hbox (badness 3657) in paragraph at lines 1406--1407
+[]\OT1/cmr/m/n/9 Z. Davoudi, EPJ Web Conf. \OT1/cmr/bx/n/9 175\OT1/cmr/m/n/9 , 
+01022 (2018),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1409--1410
+[]\OT1/cmr/m/n/9 M.J. Sav-age, PoS \OT1/cmr/bx/n/9 LAT-TICE2016\OT1/cmr/m/n/9 ,
+ 021 (2016),
+ []
+
+
+Underfull \hbox (badness 2671) in paragraph at lines 1420--1422
+[]\OT1/cmr/m/n/9 L. Con-tessi, A. Lo-vato, F. Ped-eriva, A. Rog-gero,
+ []
+
+
+Underfull \hbox (badness 3965) in paragraph at lines 1435--1436
+[]\OT1/cmr/m/n/9 T.A. L^^?ahde, U.G. Mei^^Yner, E. Epel-baum (2019),
+ []
+
+
+Underfull \hbox (badness 2582) in paragraph at lines 1488--1489
+[]\OT1/cmr/m/n/9 G.A. Miller, Phys. Rev. Lett. \OT1/cmr/bx/n/9 99\OT1/cmr/m/n/9
+ , 112001 (2007),
+ []
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 117.
+ [26]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
+ (./np_white.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 117.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 117.
+Package rerunfilecheck Info: File `np_white.out' has not changed.
+(rerunfilecheck)             Checksum: 735388B4DC39FB810F2BE67921B2DE5C;290.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 117.
+ ) 
+Here is how much of TeX's memory you used:
+ 7595 strings out of 493762
+ 110692 string characters out of 6152599
+ 216128 words of memory out of 5000000
+ 10722 multiletter control sequences out of 15000+600000
+ 17067 words of font info for 63 fonts, out of 8000000 for 9000
+ 430 hyphenation exceptions out of 8191
+ 28i,9n,28p,2315b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
+</opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></o
+pt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx9.pfb></opt/loc
+al/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/local/sh
+are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></opt/local/share/t
+exmf-texlive/fonts/type1/public/amsfonts/cm/cmmi6.pfb></opt/local/share/texmf-t
+exlive/fonts/type1/public/amsfonts/cm/cmmi7.pfb></opt/local/share/texmf-texlive
+/fonts/type1/public/amsfonts/cm/cmmi9.pfb></opt/local/share/texmf-texlive/fonts
+/type1/public/amsfonts/cm/cmr10.pfb></opt/local/share/texmf-texlive/fonts/type1
+/public/amsfonts/cm/cmr6.pfb></opt/local/share/texmf-texlive/fonts/type1/public
+/amsfonts/cm/cmr7.pfb></opt/local/share/texmf-texlive/fonts/type1/public/amsfon
+ts/cm/cmr9.pfb></opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
+mss10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssbx
+10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b></opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy7.pfb></op
+t/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy9.pfb></opt/loca
+l/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></opt/local/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti9.pfb></opt/local/share/tex
+mf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb></opt/local/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmtt9.pfb></opt/local/share/texmf-texlive/
+fonts/type1/public/lm/lmr12.pfb>
+Output written on np_white.pdf (26 pages, 2383363 bytes).
+PDF statistics:
+ 1914 PDF objects out of 2073 (max. 8388607)
+ 1579 compressed objects within 16 object streams
+ 447 named destinations out of 1000 (max. 500000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+
